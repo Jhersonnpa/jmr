@@ -1,0 +1,40 @@
+---
+import recursos from "../../public/data/JMresource.json"
+import CardItem from "./CardItem.astro";
+const pathname = Astro.url.pathname;
+const ITEMS = recursos.resources;
+
+const itemsFiltreds = ITEMS.filter((recursos) => {
+  let path = pathname.replace(/-/g," ")
+  path = path.replace("/","")
+  let strings = path.split(" ")
+  strings[0] = strings[0].charAt(0).toUpperCase() + strings[0].slice(1)
+  let newString = strings.join(" ")
+  if (recursos.category.includes(newString)) return recursos
+})
+
+---
+
+<div class="flex justify-between flex-wrap ml-0 md:ml-56 p-6">
+  {pathname == "/" ?ITEMS.map((item) => (
+    <CardItem
+    category={item.category}
+    name={item.name}
+    link={item.link}
+    image={item.img}
+    description={item.description}
+    youtube={item.youtube}
+    github={item.github}
+    />
+  )):itemsFiltreds.map((item) => (
+    <CardItem
+    category={item.category}
+    name={item.name}
+    link={item.link}
+    image={item.img}
+    description={item.description}
+    youtube={item.youtube}
+    github={item.github}
+    />
+  ))}
+</div>

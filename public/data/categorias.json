@@ -1,0 +1,41 @@
+{
+    "categorias":[
+        {
+            "name": "/"
+        },
+        {
+            "name": "Creadores de contenido"
+        },
+        {
+            "name": "Imagenes"
+        },
+        {
+            "name": "Editor de imagenes"
+        },
+        {
+            "name": "Herramientas"
+        },
+        {
+            "name": "Generadores"
+        },
+        
+        {
+            "name": "Convertidores"
+        },
+        {
+            "name": "Javascript"
+        },
+        {
+            "name": "Next.js"
+        },
+        {
+            "name": "React"
+        },
+        {
+            "name": "SQL"
+        },
+        {
+            "name": "Tailwind"
+        }
+    ]
+}
