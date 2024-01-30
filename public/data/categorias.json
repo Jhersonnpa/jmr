@@ -39,6 +39,18 @@
         },
         {
             "name": "Tailwind"
+        },
+        {
+            "name": "Scripts"
+        },
+        {
+            "name": "Apuntes"
+        },
+        {
+            "name": "Libros"
+        },
+        {
+            "name": "Cheatsheets"
         }
     ]
 }
