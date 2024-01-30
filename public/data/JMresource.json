@@ -57,9 +57,6 @@
       "github": "https://github.com/choidavid4"
     },
 
-
-
-
     
     {
       "category": ["Imagenes", "Buscador de imagenes"],
@@ -70,17 +67,80 @@
       "github": ""
     },
     {
-      "category": ["Imagenes", "Ilustraciones"],
-      "name": "DrawKit",
-      "link": "https://www.drawkit.com/",
-      "description": "Buscador de imagenes sin copyright.",
+      "category": ["Imagenes", "Buscador de imagenes"],
+      "name": "Place it",
+      "link": "https://placeit.net/free-templates",
+      "description": "Buscador de imagenes.",
       "youtube": [],
       "github": ""
     },
 
+    {
+      "category": ["Imagenes", "Ilustraciones"],
+      "name": "DrawKit",
+      "link": "https://www.drawkit.com/",
+      "description": "Web con muchas ilustraciones.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Imagenes", "Ilustraciones"],
+      "name": "Glaze",
+      "link": "https://www.glazestock.com/",
+      "description": "Web con muchas ilustraciones.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Imagenes", "Ilustraciones"],
+      "name": "Humaaans",
+      "link": "https://www.humaaans.com/",
+      "description": "Web con muchas ilustraciones relacionadas con humanos.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Imagenes", "Ilustraciones"],
+      "name": "Ira design",
+      "link": "https://iradesign.io/",
+      "description": "Web con muchas ilustraciones.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Imagenes", "Ilustraciones"],
+      "name": "Undraw",
+      "link": "https://undraw.co/illustrations",
+      "description": "Web con muchas ilustraciones relacionadas con acciones humanas.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Imagenes", "Ilustraciones"],
+      "name": "Open Doodles",
+      "link": "https://www.opendoodles.com/",
+      "description": "Web con muchas ilustraciones.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Imagenes", "Ilustraciones"],
+      "name": "Many pixels",
+      "link": "https://www.manypixels.co/gallery",
+      "description": "Web con muchas ilustraciones.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Imagenes", "Ilustraciones"],
+      "name": "Icons 8",
+      "link": "https://iconos8.es/illustrations",
+      "description": "Web con muchas ilustraciones.",
+      "youtube": [],
+      "github": ""
+    },
+        
     
-
-
     {
       "category": ["Imagenes", "Editor de imagenes"],
       "name": "Photopea",
@@ -99,13 +159,10 @@
     },
 
 
-
-
     {
       "category": ["Imagenes", "Herramientas"],
       "name": "Remove.bg",
       "link": "https://www.remove.bg/es",
-      "img": "./imgs/captura-remove.bg.png",
       "description": "Web para quitar el background de una imagen.",
       "youtube": [],
       "github": ""
@@ -114,19 +171,57 @@
       "category": ["Imagenes", "Herramientas"],
       "name": "Imagebb",
       "link": "https://es.imgbb.com/",
-      "img": "./imgs/captura-imgbb.png",
       "description": "Web donde subes una imagen y te genera un link a  una web con la imagen.",
       "youtube": [],
       "github": ""
     },
+    {
+      "category": ["Imagenes", "Herramientas"],
+      "name": "Clippy",
+      "link": " https://bennettfeely.com/clippy/",
+      "description": "Web donde subes una imagen y te deja darle forma o crear formas personalizadas.",
+      "youtube": [],
+      "github": ""
+    },
+   
 
-
+    {
+      "category": ["Convertidores"],
+      "name": "I love PDF",
+      "link": "https://www.ilovepdf.com/es/pdf_a_word",
+      "description": "Web donde te convierte un word a pdf.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Convertidores"],
+      "name": "Quick Type",
+      "link": "https://quicktype.io/",
+      "description": "Convertidor de json.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Convertidores"],
+      "name": "SVG OMG",
+      "link": "https://jakearchibald.github.io/svgomg/",
+      "description": "Subes una imagen svg y te da el codigo svg para la web.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Convertidores"],
+      "name": "Media Fire",
+      "link": "https://app.mediafire.com/myfiles",
+      "description": "Subes archivos y te da un link para compartir.",
+      "youtube": [],
+      "github": ""
+    },
 
     {
       "category": ["Cheatsheets", "SQL"],
       "name": "Cheatsheet SQL",
       "link": "./pdfs/sql-cheat-sheet",
-      "img": "./imgs/captura-cheatsheet-sql.png",
       "description": "PDF con un resumen del lenguaje SQL.",
       "youtube": [],
       "github": ""
@@ -140,7 +235,6 @@
       "category": ["Iconos"],
       "name": "3d Icons",
       "link": "https://3dicons.co/",
-      "img": "./imgs/captura-3dicons.png",
       "description": "Web con un pack de iconos en 3D descargables.",
       "youtube": [],
       "github": ""
@@ -149,7 +243,6 @@
       "category": ["Iconos"],
       "name": "SVGL",
       "link": "https://svgl.vercel.app/",
-      "img": "./imgs/captura-svgl.png",
       "description": "Web con un pack de iconos de logos en svg.",
       "youtube": [],
       "github": ""
@@ -159,9 +252,8 @@
 
     {
       "category": ["API"],
-      "name": "Requeres",
+      "name": "Reqres",
       "link": "https://reqres.in/",
-      "img": "./imgs/captura-reqres.png",
       "description": "Api para crear datos falsos.",
       "youtube": [],
       "github": ""
@@ -170,7 +262,6 @@
       "category": ["API"],
       "name": "Public APIS",
       "link": "https://publicapis.dev/",
-      "img": "./imgs/captura-publicapi.png",
       "description": "Api para crear datos falsos.",
       "youtube": [],
       "github": ""
@@ -179,7 +270,6 @@
       "category": ["API"],
       "name": "Rapid API",
       "link": "https://rapidapi.com/",
-      "img": "./imgs/captura-rapidapi.png",
       "description": "Api para crear datos falsos.",
       "youtube": [],
       "github": ""
