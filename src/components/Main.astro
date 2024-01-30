@@ -1,42 +1,27 @@
 ---
+
+
 import recursos from "../../public/data/JMresource.json"
 import CardItem from "./CardItem.astro";
-const pathname = Astro.url.pathname;
-const ITEMS = recursos.resources;
 
-const itemsFiltreds = ITEMS.filter((recursos) => {
-  let path = pathname.replace(/-/g," ")
-  path = path.replace("/","")
-  let strings = path.split(" ")
-  strings[0] = strings[0].charAt(0).toUpperCase() + strings[0].slice(1)
-  let newString = strings.join(" ")
-  if (recursos.category.includes(newString)) return recursos
-})
+const {items} = Astro.props;
 
 ---
 
 <div class="flex justify-between flex-wrap ml-0 sm:ml-56 p-6 min-h-screen h-full">
   <div class=" w-full h-full grid gap-4 grid-cols-1 grid-rows-1 sm:grid-cols-2 md:grid-cols-3 md:grid-rows-3 lg:grid-cols-4">
-    {pathname == "/" ?ITEMS.map((item) => (
-    <CardItem
-    category={item.category}
-    name={item.name}
-    link={item.link}
-    image={"../../public/images/captura-"+item.name.toLowerCase().replace(/ /g,"")+".webp"}
-    description={item.description}
-    youtube={item.youtube}
-    github={item.github}
-    />
-  )):itemsFiltreds.map((item) => (
-    <CardItem
-    category={item.category}
-    name={item.name}
-    link={item.link}
-    image={"../../public/images/captura-"+item.name.toLowerCase().replace(/ /g,"")+".webp"}
-    description={item.description}
-    youtube={item.youtube}
-    github={item.github}
-    />
-  ))}
+    {
+      items.map((item:any) => (
+        <CardItem
+        category={item.category}
+        name={item.name}
+        link={item.link}
+        image={"../../public/images/captura-"+item.name.toLowerCase().replace(/ /g,"")+".webp"}
+        description={item.description}
+        youtube={item.youtube}
+        github={item.github}
+        />
+      ))
+    }
   </div>
 </div>

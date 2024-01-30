@@ -1,0 +1,41 @@
+---
+import recursos from "../../public/data/JMresource.json"
+import categorias from "../../public/data/categorias.json"
+import Layout from '../layouts/Layout.astro';
+import Main from '../components/Main.astro';
+
+
+
+export async function getStaticPaths() {
+  const ITEMS = recursos.resources;
+  const CATEGORIASJSON = categorias;
+
+  const CATEGORIAS = CATEGORIASJSON.categorias.map((categoria) => {
+    return categoria.name
+  })
+
+
+  const pages = CATEGORIAS.map((category) => {
+    const itemsFiltreds = ITEMS.filter((recursos) => {
+      if (recursos.category.includes(category)) return recursos
+      })
+      return {
+      pathname: category.toLowerCase().replace(/ /g, "-"),
+      title: category,
+      items: itemsFiltreds,
+      }
+    
+  }) 
+  return pages.map(({ pathname, title , items}) => {
+    return {
+      params: { pathname },
+      props: { title, items },
+    };
+  });
+}
+
+const { title, items} = Astro.props;
+---
+<Layout title={`${title} | JMR`}>
+	<Main items={items} />
+</Layout>

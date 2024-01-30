@@ -35,6 +35,9 @@
             "name": "SQL"
         },
         {
+            "name": "API"
+        },
+        {
             "name": "Tailwind"
         }
     ]
