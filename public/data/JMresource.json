@@ -4,7 +4,6 @@
       "category": ["Creadores de contenido"],
       "name": "Midu",
       "link": "https://midu.dev/",
-      "img": "",
       "description": "",
       "youtube": ["https://www.youtube.com/@midulive","https://www.youtube.com/@midudev"],
       "github": "https://github.com/midudev"
@@ -13,7 +12,6 @@
       "category": ["Creadores de contenido"],
       "name": "Fazt",
       "link": "https://faztweb.com/",
-      "img": "",
       "description": "",
       "youtube": ["https://www.youtube.com/@FaztTech","https://www.youtube.com/@FaztCode"],
       "github": "https://github.com/fazt"
@@ -22,7 +20,6 @@
       "category": ["Creadores de contenido"],
       "name": "Code with Antonio",
       "link": "https://www.codewithantonio.com/",
-      "img": "",
       "description": "",
       "youtube": ["https://www.youtube.com/@codewithantonio"],
       "github": ""
@@ -31,7 +28,6 @@
       "category": ["Creadores de contenido"],
       "name": "Jonas Schemed",
       "link": "https://codingheroes.io/",
-      "img": "",
       "description": "Cursos de pago, en UDEMY",
       "youtube": [""],
       "github": ""
@@ -40,7 +36,6 @@
       "category": ["Creadores de contenido"],
       "name": "Codigo 369",
       "link": "https://codigo369.com/",
-      "img": "",
       "description": "",
       "youtube": ["https://www.youtube.com/@Codigo369"],
       "github": "https://github.com/Franklin369"
@@ -49,7 +44,6 @@
       "category": ["Creadores de contenido"],
       "name": "Bedimcode",
       "link": "",
-      "img": "",
       "description": "",
       "youtube": ["https://www.youtube.com/@Bedimcode"],
       "github": "https://github.com/bedimcode"
@@ -58,7 +52,6 @@
       "category": ["Creadores de contenido"],
       "name": "Deivchoi",
       "link": "",
-      "img": "",
       "description": "",
       "youtube": ["https://www.youtube.com/@deivchoi"],
       "github": "https://github.com/choidavid4"
@@ -73,18 +66,14 @@
       "name": "Pexels",
       "link": "https://www.pexels.com/es-es/",
       "description": "Buscador de imagenes sin copyright.",
-      "img": "./imgs/captura-pexels.png",
       "youtube": [],
       "github": ""
     },
-
-
     {
       "category": ["Imagenes", "Ilustraciones"],
       "name": "DrawKit",
       "link": "https://www.drawkit.com/",
       "description": "Buscador de imagenes sin copyright.",
-      "img": "./imgs/captura-pexels.png",
       "youtube": [],
       "github": ""
     },
@@ -97,7 +86,6 @@
       "name": "Photopea",
       "link": "https://www.photopea.com/",
       "description": "Editor de imagenes online gratis, alterantiva a Photoshop.",
-      "img": "./imgs/captura-photopea.png",
       "youtube": [],
       "github": ""
     },
@@ -105,7 +93,6 @@
       "category": ["Imagenes", "Editor de imagenes"],
       "name": "Adobe Photoshop",
       "link": "https://www.adobe.com/es/products/photoshop/landpa.html?gclid=Cj0KCQiAqsitBhDlARIsAGMR1RikbZQmZpM0bBFIe9GLk-w3QUPVbGVgNDYz0TCZTJ1mR5q1Y15w4rUaApioEALw_wcB&mv=search&s_kwcid=AL!3085!3!441887029672!e!!g!!adobe%20photoshop!1445901735!56657232416&mv=search&mv2=paidsearch&sdid=2XBSBWBF&ef_id=Cj0KCQiAqsitBhDlARIsAGMR1RikbZQmZpM0bBFIe9GLk-w3QUPVbGVgNDYz0TCZTJ1mR5q1Y15w4rUaApioEALw_wcB:G:s&s_kwcid=AL!3085!3!441887029672!e!!g!!adobe%20photoshop!1445901735!56657232416&gad_source=1",
-      "img": "./imgs/captura-photoshop.png",
       "description": "Aplicación para editar imagenes de manera profesional. De pago.",
       "youtube": [],
       "github": ""
