@@ -13,17 +13,20 @@
             "name": "Editor de imagenes"
         },
         {
+            "name": "Buscador de imagenes"
+        },
+        {
+            "name": "Ilustraciones"
+        },
+        {
             "name": "Herramientas"
         },
         {
-            "name": "Generadores"
-        },
-        
-        {
             "name": "Convertidores"
         },
+
         {
-            "name": "Javascript"
+            "name": "Generadores"
         },
         {
             "name": "Next.js"
@@ -39,6 +42,18 @@
         },
         {
             "name": "Tailwind"
+        },
+        {
+            "name": "Scripts"
+        },
+        {
+            "name": "Apuntes"
+        },
+        {
+            "name": "Libros"
+        },
+        {
+            "name": "Cheatsheets"
         }
     ]
 }
