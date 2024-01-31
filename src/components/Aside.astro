@@ -21,7 +21,7 @@ const pathname = Astro.url.pathname;
       {CATEGORIAS.map((categoria:any) => (
          <li>
             {
-               <a href={`${categoria.toLowerCase().replace(/ /g, "-" )}`} 
+               <a href={`/${categoria.toLowerCase().replace(/ /g, "-" )}`} 
                class={`flex items-center p-2 text-gray-800/80 hover:text-gray-800 rounded-lg dark:hover:text-white hover:bg-[#d5c5ff]  dark:hover:bg-indigo-600 group ${pathname == ("/"+categoria.toLowerCase().replace(/ /g, "-" )) ||  (categoria == pathname)  ? "dark:text-white bg-[#d5c5ff] text-gray-800 dark:bg-indigo-600" :" dark:text-white/80"}`}>
                   <span class="ms-3">{categoria == "/" ? "Todas": categoria}</span>
                </a>
