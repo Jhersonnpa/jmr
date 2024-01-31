@@ -702,6 +702,118 @@
       "youtube": [],
       "github": ""
     },
+    {
+      "category": ["Generadores", "IA", "Imagenes"],
+      "name": "Bluewillow",
+      "link": "https://www.bluewillow.ai/",
+      "description": "Generador de imagenes a través de texto.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Generadores", "IA", "Imagenes"],
+      "name": "Midjourney",
+      "link": "https://www.midjourney.com/home?callbackUrl=%2Fexplore",
+      "description": "Generador de imagenes a través de texto.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Generadores"],
+      "name": "Lorem lipsum",
+      "link": "https://es.lipsum.com/",
+      "description": "Generador de texto.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Generadores"],
+      "name": "Read me",
+      "link": "https://readme.so/es",
+      "description": "Generador de archivos readme.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Generadores"],
+      "name": "Css clipie chart",
+      "link": "https://bennettfeely.com/csspiechart/",
+      "description": "Generador de graficos en css.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Generadores", "IA"],
+      "name": "Json data IA",
+      "link": "https://www.jsondataai.com/",
+      "description": "Generador de json con IA.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Imagenes"],
+      "name": "Shots",
+      "link": "https://shots.so/",
+      "description": "Mockups, poner una imagen y ver como quedaria en una web, en un portatil, mobil...",
+      "youtube": [],
+      "github": ""
+    },
+
+
+    {
+      "category": ["Fuentes"],
+      "name": "Google Fonts",
+      "link": "https://fonts.google.com/",
+      "description": "Colección de fuentes de google",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Fuentes"],
+      "name": "Tipografia para logos",
+      "link": "https://blog.hubspot.es/marketing/tipografias-para-logos",
+      "description": "Web con mucas fuentes guapas",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Fuentes"],
+      "name": "1001 Free fonts",
+      "link": "https://www.1001freefonts.com/es/gaming-fonts.php",
+      "description": "Colección de fuentes muy guapas",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Fuentes", "Scripts"],
+      "name": "Fuente Poppins script",
+      "link": "https://github.com/Franklin369/apuntes-html-css/blob/main/fonts%20googleapis",
+      "description": "Colección de fuentes de google",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Fuentes", "Buscador"],
+      "name": "Font source",
+      "link": "https://fontsource.org/",
+      "description": "Buscador de fuentes",
+      "youtube": [],
+      "github": ""
+    },
+
+
+    {
+      "category": ["Scripts"],
+      "name": "Subir proyecto a github",
+      "link": "./documents/SUBIR PROYECTO A GITHUB.txt",
+      "description": "Script de los pasos para subir un proyecto personal a mi Github",
+      "youtube": [],
+      "github": ""
+    },
+
+
+
+
 
 
 
