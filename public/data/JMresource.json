@@ -286,7 +286,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "React", "Next"],
+      "category": ["Design system", "Reactjs", "Nextjs"],
       "name": "Shadcn ui",
       "link": "https://ui.shadcn.com/",
       "description": "Componentes para react y next...",
@@ -294,7 +294,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "React", "Next"],
+      "category": ["Design system", "Reactjs", "Nextjs"],
       "name": "Chakra ui",
       "link": "https://chakra-ui.com/",
       "description": "Componentes para react y next...",
@@ -302,7 +302,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "React", "Next"],
+      "category": ["Design system", "Reactjs", "Nextjs"],
       "name": "Headless ui",
       "link": "https://headlessui.com/",
       "description": "Componentes para react y next...",
@@ -310,7 +310,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "React", "Next"],
+      "category": ["Design system", "Reactjs", "Nextjs"],
       "name": "Mui",
       "link": "https://mui.com/",
       "description": "Componentes para react y next...",
@@ -326,10 +326,10 @@
       "github": ""
     },
     {
-      "category": ["Design system", "React", "Next"],
+      "category": ["Design system", "Reactjs", "Nextjs"],
       "name": "Web3 Components",
       "link": "https://web3templates.com/components",
-      "description": "Componentes hechos con tailwind para react y next...",
+      "description": "Componentes hechos con tailwind para js y next...",
       "youtube": [],
       "github": ""
     },
@@ -342,7 +342,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "React", "Next"],
+      "category": ["Design system", "Reactjs", "Nextjs"],
       "name": "Keep",
       "link": "https://react.keepdesign.io/",
       "description": "Componentes hechos con tailwind para react y next...",
