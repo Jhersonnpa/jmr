@@ -64,6 +64,12 @@
             "name": "Generadores"
         },
         {
+            "name": "Fuentes"
+        },
+        {
+            "name": "Scripts"
+        },
+        {
             "name": "Next.js"
         },
         {
@@ -81,7 +87,7 @@
 
 
 
-        
+
         {
             "name": "Scripts"
         },
