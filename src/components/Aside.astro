@@ -32,13 +32,12 @@ const pathname = Astro.url.pathname;
   </div>
 </aside>
 
-<!-- <script>
+<script>
    document.addEventListener('astro:page-load', () => {
       const hamburguerAside = document.getElementById("hamburguerAside")
       const aside = document.getElementById("default-sidebar")
       const body = document.getElementById("body")
-      console.log(aside.ariaHidden)
-      console.log(body)
+
       hamburguerAside?.addEventListener("click", () => {
          if (aside?.ariaHidden == "true") {
             aside.setAttribute("aria-modal","true");
@@ -58,7 +57,7 @@ const pathname = Astro.url.pathname;
          }
       })
    })
-</script> -->
+</script>
 
 <style>
    aside {
