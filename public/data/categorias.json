@@ -4,6 +4,9 @@
             "name": "/"
         },
         {
+            "name": "API"
+        },
+        {
             "name": "Creadores de contenido"
         },
         {
@@ -13,7 +16,7 @@
             "name": "Editor de imagenes"
         },
         {
-            "name": "Buscador de imagenes"
+            "name": "Buscadores"
         },
         {
             "name": "Ilustraciones"
@@ -24,7 +27,39 @@
         {
             "name": "Convertidores"
         },
-
+        {
+            "name": "Organizador de tareas"
+        },
+        {
+            "name": "Minimizador"
+        },
+        {
+            "name": "Servidores"
+        },
+        {
+            "name": "Design system"
+        },
+        {
+            "name": "Traductores"
+        },
+        {
+            "name": "Correctores"
+        },
+        {
+            "name": "IA"
+        },
+        {
+            "name": "Blogs"
+        },
+        {
+            "name": "Documentacion"
+        },
+        {
+            "name": "Apuntes"
+        },
+        {
+            "name": "Diagramas"
+        },
         {
             "name": "Generadores"
         },
@@ -32,22 +67,23 @@
             "name": "Next.js"
         },
         {
-            "name": "React"
+            "name": "React.js"
+        },
+        {
+            "name": "Javascript"
+        },
+        {
+            "name": "Astro"
         },
         {
             "name": "SQL"
         },
-        {
-            "name": "API"
-        },
-        {
-            "name": "Tailwind"
-        },
+
+
+
+        
         {
             "name": "Scripts"
-        },
-        {
-            "name": "Apuntes"
         },
         {
             "name": "Libros"
