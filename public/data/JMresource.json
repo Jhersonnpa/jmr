@@ -59,7 +59,7 @@
 
     
     {
-      "category": ["Imagenes", "Buscador de imagenes"],
+      "category": ["Imagenes", "Buscadores"],
       "name": "Pexels",
       "link": "https://www.pexels.com/es-es/",
       "description": "Buscador de imagenes sin copyright.",
@@ -67,7 +67,7 @@
       "github": ""
     },
     {
-      "category": ["Imagenes", "Buscador de imagenes"],
+      "category": ["Imagenes", "Buscadores"],
       "name": "Place it",
       "link": "https://placeit.net/free-templates",
       "description": "Buscador de imagenes.",
@@ -140,7 +140,6 @@
       "github": ""
     },
         
-    
     {
       "category": ["Imagenes", "Editor de imagenes"],
       "name": "Photopea",
@@ -157,7 +156,6 @@
       "youtube": [],
       "github": ""
     },
-
 
     {
       "category": ["Imagenes", "Herramientas"],
@@ -207,41 +205,413 @@
       "youtube": [],
       "github": ""
     },
+
+
     {
-      "category": ["Convertidores"],
+      "category": ["Organizador de tareas"],
+      "name": "Notion",
+      "link": "https://www.notion.so/",
+      "description": "Web para organizar tareas de los proyectos.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Organizador de tareas"],
+      "name": "To do ist",
+      "link": "https://todoist.com/es",
+      "description": "Web para organizar tareas de los proyectos.",
+      "youtube": [],
+      "github": ""
+    },
+    
+
+    {
+      "category": ["Imagenes", "Minimizador"],
+      "name": "Squoosh",
+      "link": "https://squoosh.app/",
+      "description": "Web para minimizar imagenes con calidad.",
+      "youtube": [],
+      "github": ""
+    },
+
+
+    {
+      "category": ["Herramientas", "Servidores"],
       "name": "Media Fire",
       "link": "https://app.mediafire.com/myfiles",
       "description": "Subes archivos y te da un link para compartir.",
       "youtube": [],
       "github": ""
     },
+    {
+      "category": ["Servidores"],
+      "name": "Cloudinary",
+      "link": "https://cloudinary.com/",
+      "description": "Servidor web en la nube.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Servidores"],
+      "name": "Cloudflare",
+      "link": "https://www.cloudflare.com/es-es/",
+      "description": "Servidor web en la nube.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Servidores"],
+      "name": "Amazon web service",
+      "link": "https://aws.amazon.com/es/free/?gclid=CjwKCAiA_OetBhAtEiwAPTeQZ9Wiqrhtql2JEJIfMlJZ0fFmrKa2gN_almv1wNLNdl-nuAxhUYvwSRoCP3gQAvD_BwE&trk=2d5aad89-991b-4184-98b5-1f562e3102c8&sc_channel=ps&ef_id=CjwKCAiA_OetBhAtEiwAPTeQZ9Wiqrhtql2JEJIfMlJZ0fFmrKa2gN_almv1wNLNdl-nuAxhUYvwSRoCP3gQAvD_BwE:G:s&s_kwcid=AL!4422!3!561218200770!e!!g!!aws!15250970096!135343037928&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all",
+      "description": "Servidor web en la nube de Amazon",
+      "youtube": [],
+      "github": ""
+    },
+
+
+    {
+      "category": ["Design system"],
+      "name": "Daisy ui",
+      "link": "https://daisyui.com/",
+      "description": "Componentes hechos con tailwind",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Design system", "Astro"],
+      "name": "Flowbite",
+      "link": "https://flowbite.com/",
+      "description": "Componentes hechos con tailwind para Astro",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Design system", "React.js", "Next.js"],
+      "name": "Shadcn ui",
+      "link": "https://ui.shadcn.com/",
+      "description": "Componentes para react y next...",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Design system", "React.js", "Next.js"],
+      "name": "Chakra ui",
+      "link": "https://chakra-ui.com/",
+      "description": "Componentes para react y next...",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Design system", "React.js", "Next.js"],
+      "name": "Headless ui",
+      "link": "https://headlessui.com/",
+      "description": "Componentes para react y next...",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Design system", "React.js", "Next.js"],
+      "name": "Mui",
+      "link": "https://mui.com/",
+      "description": "Componentes para react y next...",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Design system", "Astro"],
+      "name": "Tailwind Components",
+      "link": "https://tailwindcomponents.com/",
+      "description": "Componentes hechos con tailwind.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Design system", "React.js", "Next.js"],
+      "name": "Web3 Components",
+      "link": "https://web3templates.com/components",
+      "description": "Componentes hechos con tailwind para react y next...",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Design system", "Astro"],
+      "name": "Tailwind elements",
+      "link": "https://tw-elements.com/",
+      "description": "Componentes hechos con tailwind.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Design system", "React.js", "Next.js"],
+      "name": "Keep",
+      "link": "https://react.keepdesign.io/",
+      "description": "Componentes hechos con tailwind para react y next...",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Librerias", "CSS", "Design system"],
+      "name": "Tailwind CSS",
+      "link": "https://tailwindcss.com/",
+      "description": "Libreria css",
+      "youtube": [],
+      "github": ""
+    },
+
+
+    {
+      "category": ["Herramientas"],
+      "name": "Flow CV",
+      "link": "https://flowcv.com/",
+      "description": "Creador de curriculum",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Herramientas"],
+      "name": "Canva",
+      "link": "https://www.canva.com/es_es/",
+      "description": "Plantillas editables para todo.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Herramientas"],
+      "name": "10015",
+      "link": "https://10015.io/",
+      "description": "Web con muchos herramientas para programadores.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Herramientas"],
+      "name": "Coding Heroes",
+      "link": "https://codingheroes.io/resources/",
+      "description": "Web personal de Jonas Schemmed con muchos recursos.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Herramientas"],
+      "name": "Interfacer",
+      "link": "https://interfacer.xyz/",
+      "description": "Web con muchos herramientas para programadores.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Herramientas"],
+      "name": "Omatsuri",
+      "link": "https://omatsuri.app/",
+      "description": "Web con muchos herramientas para programadores.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Herramientas"],
+      "name": "Dev resources",
+      "link": "https://devresourc.es/",
+      "description": "Web con muchos herramientas para programadores.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Herramientas"],
+      "name": "Screenshot to code",
+      "link": "https://screenshottocode.com/",
+      "description": "Web donde subes una imagen y te da el codigo.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Herramientas"],
+      "name": "Bg ibelick",
+      "link": "https://bg.ibelick.com/",
+      "description": "Web de backgrounds creados.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Herramientas", "SQL"],
+      "name": "Human to database",
+      "link": "https://humantodatabase.com/",
+      "description": "Web para escribir normal y te da la sentencia sql.",
+      "youtube": [],
+      "github": ""
+    },
+
+
+    {
+      "category": ["Buscadores", "IA"],
+      "name": "Ai findy",
+      "link": "https://aifindy.com/",
+      "description": "Web donde se puede buscar recursos y ia's.",
+      "youtube": [],
+      "github": ""
+    },
+
+
+    {
+      "category": ["Blogs"],
+      "name": "30 seconds of code",
+      "link": "https://www.30secondsofcode.org/",
+      "description": "Blog donde la gente sube información sobre programación.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Blogs", "Documentacion"],
+      "name": "Web dev simplified",
+      "link": "https://blog.webdevsimplified.com/",
+      "description": "Blog donde la gente sube información sobre programación y puedes buscar documentación de los lenguajes de programación.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Documentacion", "Apuntes"],
+      "name": "Geeks for geeks",
+      "link": "https://www.geeksforgeeks.org/",
+      "description": "Blog .",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Documentacion", "Apuntes"],
+      "name": "Devdocs",
+      "link": "https://devdocs.io/",
+      "description": "Blog .",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Documentacion", "Buscadores"],
+      "name": "Code to go",
+      "link": "https://codetogo.io/",
+      "description": "Web donde puedes hacer preguntas de como se hace alguna cosa y te da el codigo.",
+      "youtube": [],
+      "github": ""
+    },
+
+
+    {
+      "category": ["Traductores"],
+      "name": "Deepl",
+      "link": "https://www.deepl.com/translator",
+      "description": "Web traductora de texto.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Traductores"],
+      "name": "Traductor Google",
+      "link": "https://translate.google.es/?hl=es",
+      "description": "Web traductora de texto.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Traductores"],
+      "name": "Wordreference",
+      "link": "https://www.wordreference.com/es/",
+      "description": "Web traductora de texto.",
+      "youtube": [],
+      "github": ""
+    },
+
+
+    {
+      "category": ["Correctores"],
+      "name": "Soft Catala",
+      "link": "https://www.softcatala.org/corrector/",
+      "description": "Corrector de faltas ortográficas de catalán.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Correctores"],
+      "name": "Language tool",
+      "link": "https://languagetool.org/es?utm_source=google&utm_medium=cpc&utm_campaign=GA_LT_ES_es_Sales_KW_Generic_ROAS-200_0Value&utm_content=corrector&utm_term=corrector%20castellano&gad_source=1&gclid=CjwKCAiA_OetBhAtEiwAPTeQZ2N55-nqWl6J4iamoT15S3k1BJtBlOFismKlOZu9aa1fxV8mrjUwAhoC6s8QAvD_BwE",
+      "description": "Corrector de faltas ortográficas de castellano.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Correctores"],
+      "name": "Insta text",
+      "link": "https://instatext.io/?campaignid=12215279742&adgroupid=116798893883&keyword=kwd-16631476&creative=549664414479&device=c&network=g&gad_source=1&gclid=CjwKCAiA_OetBhAtEiwAPTeQZyzry6C3Z3RILePvuXMDlmMcrQ3oSU7H_JIePilGgF5-dk9HB4CzSxoCrhEQAvD_BwE",
+      "description": "Corrector de faltas ortográficas de inglés.",
+      "youtube": [],
+      "github": ""
+    },
+
 
     {
       "category": ["Cheatsheets", "SQL"],
       "name": "Cheatsheet SQL",
-      "link": "./pdfs/sql-cheat-sheet",
+      "link": "./documents/sql-cheat-sheet.pdf",
       "description": "PDF con un resumen del lenguaje SQL.",
       "youtube": [],
       "github": ""
     },
 
 
-
-
-
     {
-      "category": ["Iconos"],
-      "name": "3d Icons",
-      "link": "https://3dicons.co/",
-      "description": "Web con un pack de iconos en 3D descargables.",
+      "category": ["Diagramas"],
+      "name": "Miro",
+      "link": "https://miro.com/es/",
+      "description": "Crear diagramas de  manera facil y sencilla.",
       "youtube": [],
       "github": ""
     },
     {
-      "category": ["Iconos"],
-      "name": "SVGL",
-      "link": "https://svgl.vercel.app/",
-      "description": "Web con un pack de iconos de logos en svg.",
+      "category": ["Diagramas"],
+      "name": "Fig Jam",
+      "link": "https://www.figma.com/figjam/",
+      "description": "Crear diagramas de  manera facil y sencilla.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Diagramas"],
+      "name": "Lucid",
+      "link": "https://www.lucidchart.com/pages/",
+      "description": "Crear diagramas de  manera facil y sencilla.",
+      "youtube": [],
+      "github": ""
+    },
+
+
+
+
+    {
+      "category": ["Next.js"],
+      "name": "Next.js",
+      "link": "https://nextjs.org/",
+      "description": "Web oficial de Next.js.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["React.js"],
+      "name": "React.js",
+      "link": "https://react.dev/",
+      "description": "Web oficial de React.js.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Javascript"],
+      "name": "Javascript",
+      "link": "https://developer.mozilla.org/es/docs/Web/JavaScript",
+      "description": "Web con documentación oficial de Javascript",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Astro"],
+      "name": "Astro",
+      "link": "https://docs.astro.build/en/getting-started/",
+      "description": "Web oficial de Astro",
       "youtube": [],
       "github": ""
     },
@@ -271,7 +641,84 @@
       "description": "Api para crear datos falsos.",
       "youtube": [],
       "github": ""
-    }
+    },
 
+
+    {
+      "category": ["Generadores", "IA", "Imagenes"],
+      "name": "Recraft ia",
+      "link": "https://app.recraft.ai/projects",
+      "description": "Generador de imagenes a través de texto.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Generadores"],
+      "name": "Blob maker",
+      "link": "https://www.blobmaker.app/",
+      "description": "Generador de formas abstractas en svg.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Generadores"],
+      "name": "Cubic Bezier",
+      "link": "https://cubic-bezier.com/",
+      "description": "Generador de lineas curvas en css.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Generadores"],
+      "name": "Namelix",
+      "link": "https://namelix.com/",
+      "description": "Generador de nombres.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Generadores"],
+      "name": "CSS warp",
+      "link": "https://csswarp.eleqtriq.com/",
+      "description": "Generador de texto curvado en css.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Generadores", "IA", "Imagenes"],
+      "name": "Express Adobe",
+      "link": "https://new.express.adobe.com/id/urn:aaid:sc:EU:3265b9db-158a-47ba-9f0f-a9fd38e6cfa6?category=media&tab=photos",
+      "description": "Generador de imagenes a través de texto.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Generadores", "Buscador", "IA", "Imagenes"],
+      "name": "Lexica",
+      "link": "https://lexica.art/",
+      "description": "Buscador y generador de imagenes a través de texto.",
+      "youtube": [],
+      "github": ""
+    },
+
+
+
+
+    {
+      "category": ["Iconos"],
+      "name": "3d Icons",
+      "link": "https://3dicons.co/",
+      "description": "Web con un pack de iconos en 3D descargables.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "SVGL",
+      "link": "https://svgl.vercel.app/",
+      "description": "Web con un pack de iconos de logos en svg.",
+      "youtube": [],
+      "github": ""
+    }
   ]
 }
