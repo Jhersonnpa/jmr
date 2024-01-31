@@ -59,9 +59,9 @@ const { title } = Astro.props;
   </head>
   <body id="body" class="w-full h-full dark:bg-[radial-gradient(circle_500px_at_50%_200px,#3e3e3e,transparent)] bg-[radial-gradient(circle_500px_at_50%_500px,#D5C5FF,transparent)] bg-white dark:bg-[#13151a]">
       <div>
-        <Header client:load transition:persist  transition:name="header"/>
+        <Header transition:persist  transition:name="header"/>
         <main>
-          <Aside client:load transition:persist transition:name="aside"/>
+          <Aside />
           <slot/>
         </main>
       </div>  
@@ -74,7 +74,7 @@ const { title } = Astro.props;
 
     const getTheme = () => localStorage.getItem("theme") || "light";
 
-    const setTheme = (theme) =>
+    const setTheme = (theme:any) =>
       document.documentElement.setAttribute("data-theme", theme);
 
     window.addEventListener("DOMContentLoaded", () => setTheme(getTheme()));
@@ -87,7 +87,7 @@ const { title } = Astro.props;
         setTheme(nextTheme);
       });
     });
-      </script>
+  </script>
 </html>
 <style>
   * {

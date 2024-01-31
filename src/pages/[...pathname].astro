@@ -24,8 +24,8 @@ export async function getStaticPaths() {
       title: category,
       items: itemsFiltreds,
       }
-    
   }) 
+  pages.shift();
   return pages.map(({ pathname, title , items}) => {
     return {
       params: { pathname },
