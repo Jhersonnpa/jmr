@@ -1,0 +1,32 @@
+REACT APP
+
+- Ir a una carpeta, donde queremos que se cree la carpeta del proyecto.
+- Abrir terminal
+
+- npx create-react-app (nombre proyecto)
+- cd (nombre de la carpeta del proyecto)
+- code .
+
+- visual abrir terminal 
+- npm start (Iniciar proyecto) 
+- npm run build (Crear carpeta para subir proyecto)
+
+
+
+
+VITE
+
+- Ir a una carpeta, donde queremos que se cree la carpeta del proyecto.
+- Abrir terminal
+
+- npm create vite@latest
+	- poner el nombre del proyecto
+	- react
+	- javascrit SWC
+- cd (nombre de la carpeta del proyecto)
+- code .
+
+- visual abrir terminal
+- npm install
+- npm run dev (Iniciar proyecto) 
+- npm run build (Crear carpeta para subir proyecto)

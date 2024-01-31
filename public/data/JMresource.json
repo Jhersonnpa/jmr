@@ -286,7 +286,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "React.js", "Next.js"],
+      "category": ["Design system", "React", "Next"],
       "name": "Shadcn ui",
       "link": "https://ui.shadcn.com/",
       "description": "Componentes para react y next...",
@@ -294,7 +294,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "React.js", "Next.js"],
+      "category": ["Design system", "React", "Next"],
       "name": "Chakra ui",
       "link": "https://chakra-ui.com/",
       "description": "Componentes para react y next...",
@@ -302,7 +302,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "React.js", "Next.js"],
+      "category": ["Design system", "React", "Next"],
       "name": "Headless ui",
       "link": "https://headlessui.com/",
       "description": "Componentes para react y next...",
@@ -310,7 +310,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "React.js", "Next.js"],
+      "category": ["Design system", "React", "Next"],
       "name": "Mui",
       "link": "https://mui.com/",
       "description": "Componentes para react y next...",
@@ -326,7 +326,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "React.js", "Next.js"],
+      "category": ["Design system", "React", "Next"],
       "name": "Web3 Components",
       "link": "https://web3templates.com/components",
       "description": "Componentes hechos con tailwind para react y next...",
@@ -342,7 +342,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "React.js", "Next.js"],
+      "category": ["Design system", "React", "Next"],
       "name": "Keep",
       "link": "https://react.keepdesign.io/",
       "description": "Componentes hechos con tailwind para react y next...",
@@ -548,7 +548,7 @@
     {
       "category": ["Cheatsheets", "SQL"],
       "name": "Cheatsheet SQL",
-      "link": "./documents/sql-cheat-sheet.pdf",
+      "link": "./documents/cheatsheetSQL.pdf",
       "description": "PDF con un resumen del lenguaje SQL.",
       "youtube": [],
       "github": ""
@@ -808,10 +808,46 @@
       "youtube": [],
       "github": ""
     },
-
-
-
-
+    {
+      "category": ["Scripts", "Astro"],
+      "name": "Crear proyecto Astro",
+      "link": "./documents/CREAR PROYECTO ASTRO.txt",
+      "description": "Script de los pasos para crear un proyecto de Astro",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Scripts", "React"],
+      "name": "Crear proyecto React",
+      "link": "./documents/CREAR PROYECTO REACT.txt",
+      "description": "Script de los pasos para crear un proyecto de React",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Scripts", "Next"],
+      "name": "Crear proyecto Next",
+      "link": "./documents/.txt",
+      "description": "Script de los pasos para crear un proyecto de Next",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Scripts"],
+      "name": "Colaborar proyecto Github",
+      "link": "./documents/.txt",
+      "description": "Script de los pasos para crear un proyecto de Next",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Scripts"],
+      "name": "Configuración  VS Code",
+      "link": "./documents/.txt",
+      "description": "script con la configuración de visual code",
+      "youtube": [],
+      "github": ""
+    },
 
 
 

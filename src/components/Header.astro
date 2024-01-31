@@ -122,9 +122,9 @@
     const darkIcon = document.getElementById("theme-toggle-dark-icon")
     const lightIcon = document.getElementById("theme-toggle-light-icon")
     const hamburguer = document.getElementById("hamburguer")
-    const searchHamburguer = document.getElementById("searchHamburguer")
+    
     const navSearch = document.getElementById("navbar-search")
-    const theme = (() => {
+    const theme:any | string = (() => {
       if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
         return localStorage.getItem("theme");
       }
@@ -154,9 +154,7 @@
       localStorage.setItem("theme", isDark ? "dark" : "light");
     };
 
-    document
-      .getElementById("theme-toggle")
-      .addEventListener("click", handleToggleClick);
+    document.getElementById("theme-toggle")?.addEventListener("click", handleToggleClick);
 
       hamburguer?.addEventListener('click', () => {
         if (hamburguer.ariaExpanded == "true") {
