@@ -1,4 +1,4 @@
-  <header class="sticky top-0 z-50 flex w-full min-h-16 bg-[#f1f5f9]/70 border border-t-0 border-x-0 border-b-1 border-[#a3a3a3]">
+  <header class="sticky top-0 z-50 flex w-full min-h-16 bg-[#f1f5f9]/70 border border-t-0 border-x-0 border-b-1 border-[#a3a3a3]" >
   <nav class="bg-[#f1f5f9] border-gray-200 dark:bg-[#13151a] w-full">
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
@@ -118,7 +118,7 @@
 
 <script>
   
-  document.addEventListener('astro:page-load', () => {
+  document.addEventListener('astro:after-swap', () => {
     const darkIcon = document.getElementById("theme-toggle-dark-icon")
     const lightIcon = document.getElementById("theme-toggle-light-icon")
     const hamburguer = document.getElementById("hamburguer")

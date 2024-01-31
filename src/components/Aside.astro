@@ -33,7 +33,7 @@ const pathname = Astro.url.pathname;
 </aside>
 
 <script>
-   document.addEventListener('astro:page-load', () => {
+   document.addEventListener('astro:after-swap', () => {
       const hamburguerAside = document.getElementById("hamburguerAside")
       const aside = document.getElementById("default-sidebar")
       const body = document.getElementById("body")
@@ -56,6 +56,10 @@ const pathname = Astro.url.pathname;
             body?.classList.remove("overflow-hidden")
          }
       })
+
+      window.onclick = function (e) {
+         if (aside?.ariaHidden == "true") hamburguerAside?.click()
+      }
    })
 </script>
 
