@@ -32,13 +32,12 @@ const pathname = Astro.url.pathname;
   </div>
 </aside>
 
-<!-- <script>
-   document.addEventListener('astro:page-load', () => {
+<script>
+   document.addEventListener('astro:after-swap', () => {
       const hamburguerAside = document.getElementById("hamburguerAside")
       const aside = document.getElementById("default-sidebar")
       const body = document.getElementById("body")
-      console.log(aside.ariaHidden)
-      console.log(body)
+
       hamburguerAside?.addEventListener("click", () => {
          if (aside?.ariaHidden == "true") {
             aside.setAttribute("aria-modal","true");
@@ -57,8 +56,12 @@ const pathname = Astro.url.pathname;
             body?.classList.remove("overflow-hidden")
          }
       })
+
+      window.onclick = function (e) {
+         if (aside?.ariaHidden == "true") hamburguerAside?.click()
+      }
    })
-</script> -->
+</script>
 
 <style>
    aside {
