@@ -131,14 +131,6 @@
       "youtube": [],
       "github": ""
     },
-    {
-      "category": ["Imagenes", "Ilustraciones"],
-      "name": "Icons 8",
-      "link": "https://iconos8.es/illustrations",
-      "description": "Web con muchas ilustraciones.",
-      "youtube": [],
-      "github": ""
-    },
         
     {
       "category": ["Imagenes", "Editor de imagenes"],
@@ -468,7 +460,7 @@
       "github": ""
     },
     {
-      "category": ["Documentacion", "Apuntes"],
+      "category": ["Documentacion", "Teoria"],
       "name": "Geeks for geeks",
       "link": "https://www.geeksforgeeks.org/",
       "description": "Blog .",
@@ -476,7 +468,7 @@
       "github": ""
     },
     {
-      "category": ["Documentacion", "Apuntes"],
+      "category": ["Documentacion", "Teoria"],
       "name": "Devdocs",
       "link": "https://devdocs.io/",
       "description": "Blog .",
@@ -546,7 +538,7 @@
 
 
     {
-      "category": ["Cheatsheets", "SQL"],
+      "category": ["Teoria", "SQL"],
       "name": "Cheatsheet SQL",
       "link": "./documents/cheatsheetSQL.pdf",
       "description": "PDF con un resumen del lenguaje SQL.",
@@ -817,18 +809,10 @@
       "github": ""
     },
     {
-      "category": ["Scripts", "React"],
+      "category": ["Scripts", "Reactjs"],
       "name": "Crear proyecto React",
       "link": "./documents/CREAR PROYECTO REACT.txt",
       "description": "Script de los pasos para crear un proyecto de React",
-      "youtube": [],
-      "github": ""
-    },
-    {
-      "category": ["Scripts", "Next"],
-      "name": "Crear proyecto Next",
-      "link": "./documents/.txt",
-      "description": "Script de los pasos para crear un proyecto de Next",
       "youtube": [],
       "github": ""
     },
@@ -848,12 +832,98 @@
       "youtube": [],
       "github": ""
     },
+    {
+      "category": ["Scripts"],
+      "name": "Configuracion  Chrome",
+      "link": "./documents/CONFIGURACION CHROME.txt",
+      "description": "script con la configuración de google chrome",
+      "youtube": [],
+      "github": ""
+    },
 
 
+    {
+      "category": ["Teoria"],
+      "name": "Goalkicker",
+      "link": "https://books.goalkicker.com/",
+      "description": "Web con libros de programacion de todos los lenguajes",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Teoria", "Javascript"],
+      "name": "Apuntes de Majo",
+      "link": "https://losapuntesdemajo.vercel.app/",
+      "description": "Web con apuntes de programacion de todos los lenguajes",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Teoria", "Javascript"],
+      "name": "Lenguaje js",
+      "link": "https://lenguajejs.com/",
+      "description": "Web con apuntes de programacion de Javascript",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Teoria"],
+      "name": "Atajos Visual Code",
+      "link": "./documents/atajosvisualcode.pdf",
+      "description": "Web con apuntes de programacion de Javascript",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Teoria", "Javascript"],
+      "name": "Teoria Javascript",
+      "link": "./documents/curso udemy teoria javascript.pdf",
+      "description": "Pdf con la teoria de javascript, del curso de udemy de Jonas Schemmed.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Teoria"],
+      "name": "CSS Flexbox",
+      "link": "./documents/css-flexbox-poster.png",
+      "description": "Pdf con cheatsheet de flexbox.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Teoria"],
+      "name": "CSS Grid",
+      "link": "https://css-tricks.com/snippets/css/complete-guide-grid/",
+      "description": "Pdf con cheatsheet de grid.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Teoria"],
+      "name": "Web Cheatsheets",
+      "link": "https://htmlcheatsheet.com/",
+      "description": "Web con muchos cheatsheets de diferentes lenguajes.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Teoria"],
+      "name": "Cheatsheet Tailwind",
+      "link": "https://tailwindcomponents.com/cheatsheet/",
+      "description": "Web con cheatsheet de Tailwind.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Teoria", "SQL"],
+      "name": "Cheatsheet SQL web",
+      "link": "https://www.sqltutorial.org/sql-cheat-sheet/",
+      "description": "Pdf con cheatsheet de SQL.",
+      "youtube": [],
+      "github": ""
+    },
 
 
-
-    
     {
       "category": ["Iconos"],
       "name": "3d Icons",
@@ -867,6 +937,110 @@
       "name": "SVGL",
       "link": "https://svgl.vercel.app/",
       "description": "Web con un pack de iconos de logos en svg.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "Tabler icons",
+      "link": "https://tabler.io/icons",
+      "description": "Web con una gran variedad de iconos en svg.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "Hero icons",
+      "link": "https://heroicons.com/",
+      "description": "Web con una gran variedad de iconos.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "System uicons",
+      "link": "https://www.systemuicons.com/",
+      "description": "Web con una gran variedad de iconos.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "Icons 8",
+      "link": "https://iconos8.es/",
+      "description": "Web con una gran variedad de iconos.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "Line icons",
+      "link": "https://lineicons.com/",
+      "description": "Web con una gran variedad de iconos.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "Flat icon",
+      "link": "https://www.flaticon.es/",
+      "description": "Web con una gran variedad de iconos.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "Font Awesome",
+      "link": "https://fontawesome.com/start",
+      "description": "Web con una gran variedad de iconos.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "Font Awesome (como agregar los iconos)",
+      "link": "https://www.freecodecamp.org/espanol/news/como-anadir-los-iconos-de-font-awesome-a-tus-botones/",
+      "description": "Web con tutorial de como añadr los iconos de Font Awesome.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "Lord icon",
+      "link": "https://lordicon.com/",
+      "description": "Web con una gran variedad de iconos.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "Iconscout",
+      "link": "https://iconscout.com/unicons/explore/line",
+      "description": "Web con una gran variedad de iconos.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "GetEmoji",
+      "link": "https://getemoji.com/",
+      "description": "Web con una gran variedad de emojis.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "Emojis wiki",
+      "link": "https://emojis.wiki/es/",
+      "description": "Web con una gran variedad de emojis.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Iconos"],
+      "name": "Icons 8 ilustraciones",
+      "link": "https://iconos8.es/illustrations",
+      "description": "Web con una gran variedad de ilustraciones, 3d...",
       "youtube": [],
       "github": ""
     }
