@@ -18,12 +18,17 @@ const pathname = Astro.url.pathname;
 <aside id="default-sidebar" class="w-full md:fixed overflow-x-hidden md:left-0 md:h-full sm:p z-50 md:w-56 h-screen transition-transform -translate-x-full sm:translate-x-0 border border-r-1 border-y-0 border-l-0 border-[#a3a3a379]" aria-label="Sidebar">
   <div class="h-full px-3 py-4 bg-gray-50 dark:bg-[#13151a]">
      <ul class="h-[90%] overflow-auto space-y-2 font-medium">
+      <li>
+         <a href="/" class={`flex items-center p-2 text-gray-800/80 hover:text-gray-800 rounded-lg dark:hover:text-white hover:bg-[#d5c5ff]  dark:hover:bg-indigo-600 group ${pathname == "/"  ? "dark:text-white bg-[#d5c5ff] text-gray-800 dark:bg-indigo-600" :" dark:text-white/80"}`}>
+            <span class="ms-3">Todas</span>
+         </a>
+      </li>
       {CATEGORIAS.map((categoria:any) => (
          <li>
             {
                <a href={`/${categoria.toLowerCase().replace(/ /g, "-" )}`} 
                class={`flex items-center p-2 text-gray-800/80 hover:text-gray-800 rounded-lg dark:hover:text-white hover:bg-[#d5c5ff]  dark:hover:bg-indigo-600 group ${pathname == ("/"+categoria.toLowerCase().replace(/ /g, "-" )) ||  (categoria == pathname)  ? "dark:text-white bg-[#d5c5ff] text-gray-800 dark:bg-indigo-600" :" dark:text-white/80"}`}>
-                  <span class="ms-3">{categoria == "/" ? "Todas": categoria}</span>
+                  <span class="ms-3">{categoria}</span>
                </a>
             }
         </li>
