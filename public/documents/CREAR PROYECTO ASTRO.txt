@@ -1,0 +1,9 @@
+PASSOS:
+- Ir a una carpeta, donde queremos que se cree la carpeta del proyecto.
+- Abrir terminal
+
+- npx create-astro (nombre del proyecto)
+- 
+- npm create astro@latest
+- npx astro add --list (Lista de cosas que se pueden añadir)
+- Añadir tailwind npx astro add tailwind
