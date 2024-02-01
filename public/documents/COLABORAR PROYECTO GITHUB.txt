@@ -1,0 +1,51 @@
+Colaborar en repositorios de proyectos
+
+
+// En el caso de ser participante del proyecto
+
+Ir a github y buscar el repositorio
+hacer un fork 
+desde mi repositorio nuevo, copiar el github cli (tener configurado el github cli), autorizar credenciales
+ir a la carpeta donde quieres crear el proyecto
+abrir terminal
+- gh repo clone (repositorio)
+- cd (carpeta creada)
+- code .
+
+abrir terminal
+git remote --verbose (para asegurarse de que esta bien configurado a la rama princial)
+git pull upstream main
+
+npm i (instalar dependecias y modulos del proyecto)
+
+(modificar cambios del proyecto)
+git add .
+git commit -m "(mensaje)"
+git push -u origin main 
+entrar en git hub, en mi repositorio y crear una pull request al upstream
+
+
+// si mi repositorio no esta igual que el repositorio del proyecto, coger los cambios y añadirlos a mi proyecto
+git pull upstream main
+
+Subir los cambios a mi repositorio
+git push -u origin main
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////C
+
+// En el caso de ser el creador del proyecto
+
+subir el proyecto a un repositorio de github  (en publico)
+entrar en el repositorio (compartido)
+ir a pull request y buscar la nueva
+merge pull request
+
+en el terminal con tu proyecto, git pull orgin main
+
+
+(modificar cambios del proyecto)
+git add .
+git commit -m "(mensaje)"
+git push -u origin main
+

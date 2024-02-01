@@ -122,8 +122,9 @@
     const darkIcon = document.getElementById("theme-toggle-dark-icon")
     const lightIcon = document.getElementById("theme-toggle-light-icon")
     const hamburguer = document.getElementById("hamburguer")
+    
     const navSearch = document.getElementById("navbar-search")
-    const theme:string | any = (() => {
+    const theme:any | string = (() => {
       if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
         return localStorage.getItem("theme");
       }
