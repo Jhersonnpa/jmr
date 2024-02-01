@@ -1,0 +1,8 @@
+- Extensions de chrome que utilitzem			
+	- FireShot, captura pagina completa.  		https://chromewebstore.google.com/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg?hl=es&utm_source=ext_sidebar
+	- Visbug					https://chromewebstore.google.com/detail/visbug/cdockenadnadldjbbgcallicgledbeoc?hl=es&utm_source=ext_sidebar
+	- SelectText from videos			https://chromewebstore.google.com/detail/selectext-copy-text-from/gkkdmjjodidppndkbkhhknakbeflbomf?hl=es&utm_source=ext_sidebar
+	- Web Color Picker				https://chromewebstore.google.com/detail/web-color-picker-capturad/dneifdhdmnmmlobjbimlkcnhkbidmlek?hl=es&utm_source=ext_sidebar
+	- Wappalyzer 					https://chromewebstore.google.com/detail/wappalyzer-technology-pro/gppongmhjkpfnbhagpmjfkannfbllamg?hl=es&utm_source=ext_sidebar
+	- React Components 				https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=es&utm_source=ext_sidebar
+	- Iconos para Github				https://chromewebstore.google.com/detail/file-icons-for-github-and/ficfmibkjjnpogdcfhfokmihanoldbfe
