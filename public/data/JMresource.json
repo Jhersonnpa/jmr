@@ -584,16 +584,16 @@
 
 
     {
-      "category": ["Next.js"],
-      "name": "Next.js",
+      "category": ["Nextjs"],
+      "name": "Nextjs",
       "link": "https://nextjs.org/",
       "description": "Web oficial de Next.js.",
       "youtube": [],
       "github": ""
     },
     {
-      "category": ["React.js"],
-      "name": "React.js",
+      "category": ["Reactjs"],
+      "name": "Reactjs",
       "link": "https://react.dev/",
       "description": "Web oficial de React.js.",
       "youtube": [],
@@ -848,8 +848,6 @@
       "youtube": [],
       "github": ""
     },
-
-
 
 
     {
