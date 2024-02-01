@@ -835,21 +835,25 @@
     {
       "category": ["Scripts"],
       "name": "Colaborar proyecto Github",
-      "link": "./documents/.txt",
+      "link": "./documents/COLABORAR PROYECTO GITHUB.txt",
       "description": "Script de los pasos para crear un proyecto de Next",
       "youtube": [],
       "github": ""
     },
     {
       "category": ["Scripts"],
-      "name": "Configuración  VS Code",
-      "link": "./documents/.txt",
+      "name": "Configuracion  VS Code",
+      "link": "./documents/CONFIGURACION VS CODE.txt",
       "description": "script con la configuración de visual code",
       "youtube": [],
       "github": ""
     },
 
 
+
+
+
+    
     {
       "category": ["Iconos"],
       "name": "3d Icons",
