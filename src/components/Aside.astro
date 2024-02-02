@@ -15,7 +15,7 @@ const pathname = Astro.url.pathname;
   </svg>
 </button>
 
-<aside id="default-sidebar" class="w-full md:fixed overflow-x-hidden md:left-0 md:h-full sm:p z-50 md:w-56 h-screen transition-transform -translate-x-full sm:translate-x-0 border border-r-1 border-y-0 border-l-0 border-[#a3a3a379]" aria-label="Sidebar">
+<aside id="default-sidebar" data-modal="close" class="w-full md:fixed overflow-x-hidden md:left-0 md:h-full sm:p z-50 md:w-56 h-screen transition-transform -translate-x-full sm:translate-x-0 border border-r-1 border-y-0 border-l-0 border-[#a3a3a379]" aria-label="close">
   <div class="h-full px-3 py-4 bg-gray-50 dark:bg-[#13151a]">
      <ul class="h-[90%] overflow-auto space-y-2 font-medium">
       <li>
@@ -35,38 +35,43 @@ const pathname = Astro.url.pathname;
       ))}
      </ul>
   </div>
-</aside>
-
-<script>
-   document.addEventListener('astro:after-swap', () => {
-      const hamburguerAside = document.getElementById("hamburguerAside")
-      const aside = document.getElementById("default-sidebar")
-      const body = document.getElementById("body")
-
-      hamburguerAside?.addEventListener("click", () => {
-         if (aside?.ariaHidden == "true") {
-            aside.setAttribute("aria-modal","true");
-            aside.setAttribute("role","dialog");
-            // aside.removeAttribute("aria-hidden")
-            aside.classList.add("transform-none")
-            body?.classList.add("overflow-hidden")
-            aside.classList.remove("-translate-x-full")
-            
-         } else {
-            aside?.removeAttribute("aria-modal")
-            aside?.removeAttribute("role")
-            aside?.setAttribute("aria-hidden","true")
-            aside?.classList.add("-translate-x-full")
-            aside?.classList.remove("transform-none")
-            body?.classList.remove("overflow-hidden")
+  <script>
+   document.addEventListener("astro:after-swap", () => {
+      // set the target element that will be collapsed or expanded (eg. navbar menu)
+      const navbar = document.getElementById('default-sidebar');
+      // optionally set a trigger element (eg. a button, hamburger icon)
+      const hamburguer = document.getElementById('hamburguerAside');
+      hamburguer.addEventListener("click", () =>{
+         if(document.getElementById("hamburguer")?.ariaExpanded == "true"){
+            document.getElementById("hamburguer")?.click()
+         } 
+         if (navbar.ariaLabel == "close"){
+            navbar.ariaLabel = "open"
+            navbar.removeAttribute("aria-hidden")
+            navbar.setAttribute("aria-modal","true")
+            navbar.setAttribute("role","dialog")
+            document.body.classList.add("overflow-hidden")
+            navbar.classList.add("transform-none")
+            navbar.classList.remove("-translate-x-full")
+         }else {
+            navbar.ariaLabel = "close"
+            navbar.removeAttribute("aria-modal")
+            navbar.removeAttribute("role")
+            navbar.setAttribute("aria-hidden","true")
+            document.body.classList.remove("overflow-hidden")
+            navbar.classList.remove("transform-none")
+            navbar.classList.add("-translate-x-full")
          }
       })
 
-      window.onclick = function (){
-         if (aside?.ariaHidden == "true") hamburguerAside?.click()
-      }
+      document.getElementById("main").addEventListener("click", () => {
+         if (navbar.ariaLabel == "open") {
+            hamburguer.click()
+         }
+      })
    })
-</script>
+  </script>
+</aside>
 
 <style>
    aside {
