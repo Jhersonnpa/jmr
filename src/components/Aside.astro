@@ -5,6 +5,15 @@ const CATEGORIASJSON = categorias;
 const CATEGORIAS = CATEGORIASJSON.categorias.map((categoria:any) => {
    return categoria.name
 })
+const itemsSort = CATEGORIAS.sort((a:any, b:any) => {
+  if (a == b) {
+    return 0;
+  }
+  if (a < b) {
+    return -1;
+  }
+  return 1;
+});
 const pathname = Astro.url.pathname;
 ---
 
@@ -23,7 +32,7 @@ const pathname = Astro.url.pathname;
             <span class="ms-3">Todas</span>
          </a>
       </li>
-      {CATEGORIAS.map((categoria:any) => (
+      {itemsSort.map((categoria:any) => (
          <li>
             {
                <a href={`/${categoria.toLowerCase().replace(/ /g, "-" )}`} 
