@@ -8,17 +8,17 @@
         class="flex items-center space-x-3 rtl:space-x-reverse"
       >
         <img
-          src="https://i.ibb.co/Xbh3KpP/pngwing-com.png"
-          class="h-8"
-          alt="Flowbite Logo"
+          src="/favicon.svg"
+          class="h-8 rounded-lg bg-[#13151a]"
+          alt="JMresources Logo"
         />
         <span
           class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
           >JMR</span
         >
       </a>
-      <div class="flex md:order-2 md:min-w-80">
-        <div class="relative hidden md:block md:w-full">
+      <div class="relative flex md:order-2 md:min-w-80">
+        <div class="hidden md:block md:w-full">
           <div
             class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
           >
@@ -49,7 +49,7 @@
           id="hamburguer"
           data-collapse-toggle="navbar-search"
           type="button"
-          class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          class="sticky top-16 inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="navbar-search"
           aria-expanded="false"
         >
@@ -108,32 +108,5 @@
     </div>
   </nav>
 </header>
-
-<script>
-  document.addEventListener("astro:after-swap", () => {
-     // set the target element that will be collapsed or expanded (eg. navbar menu)
-     const navbar:any = document.getElementById('navbar-search');
-     // optionally set a trigger element (eg. a button, hamburger icon)
-     const hamburguer:any = document.getElementById('hamburguer');
-     hamburguer?.addEventListener("click", () =>{
-        if(document.getElementById("default-sidebar")?.ariaLabel == "open"){
-          document.getElementById("hamburguerAside")?.click()
-        } 
-        if (hamburguer?.ariaExpanded == "true"){
-          navbar?.classList.add("hidden")
-          hamburguer.ariaExpanded="false"
-        }else {
-          navbar?.classList.remove("hidden")
-          hamburguer.ariaExpanded="true"
-        }
-     })
-
-    document.getElementById("main")?.addEventListener("click", () => {
-      if (document.getElementById("hamburguer")?.ariaExpanded == "true") {
-        document.getElementById('hamburguer')?.click()
-      }
-    })
-  })
- </script>
 
 

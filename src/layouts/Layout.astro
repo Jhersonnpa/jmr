@@ -1,7 +1,7 @@
 ---
 import { ViewTransitions } from "astro:transitions";
-import Header from '../components/Header.astro';
-import Aside from '../components/Aside.astro';
+import Header from "../components/Header.astro";
+import Aside from "../components/Aside.astro";
 interface Props {
   title: string;
 }
@@ -23,161 +23,306 @@ const { title } = Astro.props;
       rel="stylesheet"
     />
     <script>
-			// On page load or when changing themes, best to add inline in `head` to avoid FOUC
-			if (localStorage.getItem('color-theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark');
+      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
+      if (
+        localStorage.getItem("theme") === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        document.documentElement.classList.add("dark");
       } else {
-            document.documentElement.classList.remove('dark')
+        document.documentElement.classList.remove("dark");
       }
-		</script>
-		<script>
-      document.addEventListener("astro:after-swap",()=> {
+    </script>
+    <script>
+      document.addEventListener("astro:after-swap", () => {
         // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-        if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            document.documentElement.classList.add('dark');
+        if (
+          localStorage.getItem("theme") === "dark" ||
+          (!("theme" in localStorage) &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches)
+        ) {
+          document.documentElement.classList.add("dark");
         } else {
-            document.documentElement.classList.remove('dark')
+          document.documentElement.classList.remove("dark");
         }
-      })
+      });
     </script>
     <ViewTransitions />
     <style>
-      body::-webkit-scrollbar-track
-      {
-        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+      body::-webkit-scrollbar-track {
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
         border-radius: 6x;
         /* background-color: #F5F5F5; */
       }
 
-      body::-webkit-scrollbar
-      {
+      body::-webkit-scrollbar {
         width: 8px;
         /* background-color: #F5F5F5; */
       }
 
-      body::-webkit-scrollbar-thumb
-      {
+      body::-webkit-scrollbar-thumb {
         border-radius: 6px;
-        -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
         background-color: #555;
       }
     </style>
   </head>
-  <body id="body" class="w-full h-full dark:bg-[radial-gradient(circle_500px_at_50%_200px,#3e3e3e,transparent)] bg-[radial-gradient(circle_500px_at_50%_500px,#D5C5FF,transparent)] bg-white dark:bg-[#13151a]">
-      <div>
-        <Header/>
-        <main>
-          <Aside />
-          <slot />
-        </main>
-      </div>
+  <body
+    id="body"
+    class="w-full h-full dark:bg-[radial-gradient(circle_500px_at_50%_200px,#3e3e3e,transparent)] bg-[radial-gradient(circle_500px_at_50%_500px,#D5C5FF,transparent)] bg-white dark:bg-[#13151a]"
+  >
+    <div>
+      <Header />
+      <main>
+        <Aside />
+        <slot />
+      </main>
+    </div>
 
-      <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"
-      ></script>
-      <script>
-        const themeToggleDarkIcon:any = document.getElementById('theme-toggle-dark-icon');
-        const themeToggleLightIcon:any = document.getElementById('theme-toggle-light-icon');
+    <script>
+      const themeToggleDarkIcon: any = document.getElementById(
+        "theme-toggle-dark-icon"
+      );
+      const themeToggleLightIcon: any = document.getElementById(
+        "theme-toggle-light-icon"
+      );
 
-        // Change the icons inside the button based on previous settings
-        if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-            themeToggleLightIcon.classList.remove('hidden');
-        } else {
-            themeToggleDarkIcon.classList.remove('hidden');
-        }
+      // Change the icons inside the button based on previous settings
+      if (
+        localStorage.getItem("theme") === "dark" ||
+        (!("theme" in localStorage) &&
+          window.matchMedia("(prefers-color-scheme: dark)").matches)
+      ) {
+        themeToggleLightIcon.classList.remove("hidden");
+      } else {
+        themeToggleDarkIcon.classList.remove("hidden");
+      }
 
-        const themeToggleBtn:any = document.getElementById('theme-toggle');
+      const themeToggleBtn: any = document.getElementById("theme-toggle");
 
-        themeToggleBtn.addEventListener('click', function() {
-
+      themeToggleBtn.addEventListener("click", function () {
         // toggle icons inside button
-            themeToggleDarkIcon.classList.toggle('hidden');
-            themeToggleLightIcon.classList.toggle('hidden');
+        themeToggleDarkIcon.classList.toggle("hidden");
+        themeToggleLightIcon.classList.toggle("hidden");
 
-            // if set via local storage previously
-            if (localStorage.getItem('color-theme')) {
-                if (localStorage.getItem('color-theme') === 'light') {
-                    document.documentElement.classList.add('dark');
-                    localStorage.setItem('color-theme', 'dark');
-                } else {
-                    document.documentElement.classList.remove('dark');
-                    localStorage.setItem('color-theme', 'light');
-                }
-
-            // if NOT set via local storage previously
-            } else {
-                if (document.documentElement.classList.contains('dark')) {
-                    document.documentElement.classList.remove('dark');
-                    localStorage.setItem('color-theme', 'light');
-                } else {
-                    document.documentElement.classList.add('dark');
-                    localStorage.setItem('theme', 'dark');
-                }
-            }
-            
-        });
-      </script>
-      <script>
-        document.addEventListener("astro:page-load", () => {
-          const themeToggleDarkIcon:any = document.getElementById('theme-toggle-dark-icon');
-          const themeToggleLightIcon:any = document.getElementById('theme-toggle-light-icon');
-
-          // Change the icons inside the button based on previous settings
-          if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-              themeToggleLightIcon.classList.remove('hidden');
+        // if set via local storage previously
+        if (localStorage.getItem("theme")) {
+          if (localStorage.getItem("theme") === "light") {
+            document.documentElement.classList.add("dark");
+            localStorage.setItem("theme", "dark");
+            localStorage.setItem("color-theme", "dark");
           } else {
-              themeToggleDarkIcon.classList.remove('hidden');
+            document.documentElement.classList.remove("dark");
+            localStorage.setItem("theme", "light");
+            localStorage.setItem("color-theme", "light");
           }
 
-          const themeToggleBtn:any = document.getElementById('theme-toggle');
+          // if NOT set via local storage previously
+        } else {
+          if (document.documentElement.classList.contains("dark")) {
+            document.documentElement.classList.remove("dark");
+            localStorage.setItem("theme", "light");
+            localStorage.setItem("color-theme", "light");
+          } else {
+            document.documentElement.classList.add("dark");
+            localStorage.setItem("theme", "dark");
+            localStorage.setItem("color-theme", "dark");
+          }
+        }
+      });
+      localStorage.theme === "dark"
+        ? document.documentElement.classList.add("dark")
+        : document.documentElement.classList.add("light");
+    </script>
+    <script>
+      document.addEventListener("astro:page-load", () => {
+        const themeToggleDarkIcon: any = document.getElementById(
+          "theme-toggle-dark-icon"
+        );
+        const themeToggleLightIcon: any = document.getElementById(
+          "theme-toggle-light-icon"
+        );
 
-          themeToggleBtn.addEventListener('click', function() {
+        // Change the icons inside the button based on previous settings
+        if (
+          localStorage.getItem("theme") === "dark" ||
+          (!("theme" in localStorage) &&
+            window.matchMedia("(prefers-color-scheme: dark)").matches)
+        ) {
+          themeToggleLightIcon.classList.remove("hidden");
+        } else {
+          themeToggleDarkIcon.classList.remove("hidden");
+        }
 
-              // toggle icons inside button
-              themeToggleDarkIcon.classList.toggle('hidden');
-              themeToggleLightIcon.classList.toggle('hidden');
+        const themeToggleBtn: any = document.getElementById("theme-toggle");
 
-              // if set via local storage previously
-              if (localStorage.getItem('theme')) {
-                  if (localStorage.getItem('theme') === 'light') {
-                      document.documentElement.classList.add('dark');
-                      localStorage.setItem('theme', 'dark');
-                  } else {
-                      document.documentElement.classList.remove('dark');
-                      localStorage.setItem('theme', 'light');
-                  }
+        themeToggleBtn.addEventListener("click", function () {
+          // toggle icons inside button
+          themeToggleDarkIcon.classList.toggle("hidden");
+          themeToggleLightIcon.classList.toggle("hidden");
 
-              // if NOT set via local storage previously
-              } else {
-                  if (document.documentElement.classList.contains('dark')) {
-                      document.documentElement.classList.remove('dark');
-                      localStorage.setItem('theme', 'light');
-                  } else {
-                      document.documentElement.classList.add('dark');
-                      localStorage.setItem('theme', 'dark');
-                  }
-              }
-              
-          });
-        })
-      </script>
-      
-      <script>
-        document.addEventListener('astro:after-swap', () => {
-          localStorage.theme === 'dark'
+          // if set via local storage previously
+          if (localStorage.getItem("theme")) {
+            if (localStorage.getItem("theme") === "light") {
+              document.documentElement.classList.add("dark");
+              localStorage.setItem("theme", "dark");
+              localStorage.setItem("color-theme", "dark");
+            } else {
+              document.documentElement.classList.remove("dark");
+              localStorage.setItem("theme", "light");
+              localStorage.setItem("color-theme", "light");
+            }
+
+            // if NOT set via local storage previously
+          } else {
+            if (document.documentElement.classList.contains("dark")) {
+              document.documentElement.classList.remove("dark");
+              localStorage.setItem("theme", "light");
+              localStorage.setItem("color-theme", "light");
+            } else {
+              document.documentElement.classList.add("dark");
+              localStorage.setItem("theme", "dark");
+              localStorage.setItem("color-theme", "dark");
+            }
+          }
+        });
+        localStorage.theme === "dark"
           ? document.documentElement.classList.add("dark")
           : document.documentElement.classList.add("light");
-        });
-      </script>
-      
-  </body>
-  
-</html>
-<style>
-  * {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
+      });
+    </script>
 
-</style>
+    <script>
+      // set the target element that will be collapsed or expanded (eg. navbar menu)
+      const navbar: any = document.getElementById("default-sidebar");
+      // optionally set a trigger element (eg. a button, hamburger icon)
+      const hamburguer: any = document.getElementById("hamburguerAside");
+      hamburguer.addEventListener("click", () => {
+        if (document.getElementById("hamburguer")?.ariaExpanded == "true") {
+          document.getElementById("hamburguer")?.click();
+        }
+        if (navbar.ariaLabel == "close") {
+          navbar.ariaLabel = "open";
+          navbar.removeAttribute("aria-hidden");
+          navbar.setAttribute("aria-modal", "true");
+          navbar.setAttribute("role", "dialog");
+          document.body.classList.add("overflow-hidden");
+          navbar.classList.add("transform-none");
+          navbar.classList.remove("-translate-x-full");
+        } else {
+          navbar.ariaLabel = "close";
+          navbar.removeAttribute("aria-modal");
+          navbar.removeAttribute("role");
+          navbar.setAttribute("aria-hidden", "true");
+          document.body.classList.remove("overflow-hidden");
+          navbar.classList.remove("transform-none");
+          navbar.classList.add("-translate-x-full");
+        }
+      });
+
+      document.getElementById("main")?.addEventListener("click", () => {
+        if (navbar.ariaLabel == "open") {
+          hamburguer.click();
+        }
+      });
+    </script>
+    <script>
+      document.addEventListener("astro:after-swap", () => {
+        // set the target element that will be collapsed or expanded (eg. navbar menu)
+        const navbar: any = document.getElementById("default-sidebar");
+        // optionally set a trigger element (eg. a button, hamburger icon)
+        const hamburguer: any = document.getElementById("hamburguerAside");
+        hamburguer.addEventListener("click", () => {
+          if (document.getElementById("hamburguer")?.ariaExpanded == "true") {
+            document.getElementById("hamburguer")?.click();
+          }
+          if (navbar.ariaLabel == "close") {
+            navbar.ariaLabel = "open";
+            navbar.removeAttribute("aria-hidden");
+            navbar.setAttribute("aria-modal", "true");
+            navbar.setAttribute("role", "dialog");
+            document.body.classList.add("overflow-hidden");
+            navbar.classList.add("transform-none");
+            navbar.classList.remove("-translate-x-full");
+          } else {
+            navbar.ariaLabel = "close";
+            navbar.removeAttribute("aria-modal");
+            navbar.removeAttribute("role");
+            navbar.setAttribute("aria-hidden", "true");
+            document.body.classList.remove("overflow-hidden");
+            navbar.classList.remove("transform-none");
+            navbar.classList.add("-translate-x-full");
+          }
+        });
+
+        document.getElementById("main")?.addEventListener("click", () => {
+          if (navbar.ariaLabel == "open") {
+            hamburguer.click();
+          }
+        });
+      });
+    </script>
+
+    <script>
+      // set the target element that will be collapsed or expanded (eg. navbar menu)
+      const navbar: any = document.getElementById("navbar-search");
+      // optionally set a trigger element (eg. a button, hamburger icon)
+      const hamburguer: any = document.getElementById("hamburguer");
+      hamburguer?.addEventListener("click", () => {
+        if (document.getElementById("default-sidebar")?.ariaLabel == "open") {
+          document.getElementById("hamburguerAside")?.click();
+        }
+        if (hamburguer?.ariaExpanded == "true") {
+          navbar?.classList.add("hidden");
+          hamburguer.ariaExpanded = "false";
+        } else {
+          navbar?.classList.remove("hidden");
+          hamburguer.ariaExpanded = "true";
+        }
+      });
+
+      document.getElementById("main")?.addEventListener("click", () => {
+        if (document.getElementById("hamburguer")?.ariaExpanded == "true") {
+          document.getElementById("hamburguer")?.click();
+        }
+      });
+
+      document.addEventListener("astro:after-swap", () => {
+        // set the target element that will be collapsed or expanded (eg. navbar menu)
+        const navbar: any = document.getElementById("navbar-search");
+        // optionally set a trigger element (eg. a button, hamburger icon)
+        const hamburguer: any = document.getElementById("hamburguer");
+        hamburguer?.addEventListener("click", () => {
+          if (document.getElementById("default-sidebar")?.ariaLabel == "open") {
+            document.getElementById("hamburguerAside")?.click();
+          }
+          if (hamburguer?.ariaExpanded == "true") {
+            navbar?.classList.add("hidden");
+            hamburguer.ariaExpanded = "false";
+          } else {
+            navbar?.classList.remove("hidden");
+            hamburguer.ariaExpanded = "true";
+          }
+        });
+
+        document.getElementById("main")?.addEventListener("click", () => {
+          if (document.getElementById("hamburguer")?.ariaExpanded == "true") {
+            document.getElementById("hamburguer")?.click();
+          }
+        });
+      });
+    </script>
+
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"
+    ></script> -->
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+    </style>
+  </body>
+</html>
