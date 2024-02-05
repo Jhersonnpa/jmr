@@ -1,22 +1,12 @@
 ---
-import recursos from "../../public/data/JMresource.json";
-import categorias from "../../public/data/categorias.json";
-import Layout from "../layouts/Layout.astro";
-import Main from "../components/Main.astro";
 import SearchContent from "../components/SearchContent.jsx";
-
-const title = "Buscador";
-// let itemsBuscador:any = localStorage.getItem("buscador");
-//     itemsBuscador = JSON.parse(itemsBuscador);
+import Layout from '../layouts/Layout.astro';
 ---
 
-<script></script>
-
-<Layout title={`${title} | JMR`}>
-  <!-- <Main items={itemsBuscador} /> -->
+<Layout title="Search">
   <div class="flex justify-between flex-wrap ml-0 sm:ml-56 p-6 h-full min-h-[92vh]">
     <div class=" w-full h-full grid gap-4 grid-cols-1 sm:grid-cols-2 auto-cols-fr lg:grid-cols-4">
-        <SearchContent />
+      <SearchContent client:only="react"></SearchContent>
     </div>
   </div>
 </Layout>

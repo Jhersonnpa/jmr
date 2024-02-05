@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+=======
+---
+import Search from "./Search";
+---
+
+>>>>>>> 9cb7ecaea08978f37725d863f44bbe4f095ffa86
 <header
   class="sticky top-0 z-50 flex w-full min-h-16 bg-[#f1f5f9]/70 border border-t-0 border-x-0 border-b-1 border-[#a3a3a3]"
 >
@@ -21,7 +28,7 @@
           <div
             class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
           >
-            <svg
+            <!-- <svg
               class="w-4 h-4 text-gray-500 dark:text-gray-400"
               aria-hidden="true"
               xmlns="http://www.w3.org/2000/svg"
@@ -35,14 +42,15 @@
                 stroke-width="2"
                 d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"></path>
             </svg>
-            <span class="sr-only">Search icon</span>
+            <span class="sr-only">Search icon</span> -->
           </div>
-          <input
+          <Search client:only="react"/>
+          <!-- <input
             type="text"
             id="search-navbar"
-            class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-[#d5c5ff] focus:border-[#d5c5ff] dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-600 dark:focus:border-indigo-600"
+            class="search-navbar block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-[#d5c5ff] focus:border-[#d5c5ff] dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-600 dark:focus:border-indigo-600"
             placeholder="Buscar"
-          />
+          /> -->
         </div>
         <button
           id="hamburguer"
@@ -94,8 +102,7 @@
           </div>
           <input
             type="text"
-            id="search-navbar"
-            class="block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-indigo-600 focus:border-indigo-600 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-600 dark:focus:border-indigo-600"
+            class="search-navbar block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-indigo-600 focus:border-indigo-600 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-600 dark:focus:border-indigo-600"
             placeholder="Buscar"
           />
         </div>
@@ -135,11 +142,10 @@
 
 <script>
   import recursos from "../../public/data/JMresource.json";
-
-  const buscador: any | null = document.getElementById("search-navbar");
+  const buscador: any | null = document.getElementsByClassName("search-navbar");
   const ITEMS = recursos.resources;
 
-  function buscarPalabraClave() {
+  function buscarPalabraClave(buscador:any) {
     const palabraClave = buscador.value.toLowerCase();
     // con el startswith es para que empiece igual
     let resultados = ITEMS.filter(
@@ -151,27 +157,25 @@
         )
     );
 
-    // Aqui solo busca que coincida, da igual en que posicion de la palabra este.
-    // let resultados = ITEMS.filter(item =>
-    //   item.name.toLowerCase().includes(palabraClave) ||
-    //   item.description.toLowerCase().includes(palabraClave)
-    // );
-
-    // Este triple igual es para que la palabra solo puede ser igual, sino no muestra nada
-    // let resultados = ITEMS.filter(item =>
-    //   item.name.toLowerCase() === palabraClave ||
-    //   item.description.toLowerCase() === palabraClave
-    // );
-
     localStorage.setItem("buscador", JSON.stringify(resultados));
-    window.location.href = "/search-navbar";
-    // console.log(buscador);
-    console.log(resultados);
+    
   }
-
-  buscador.addEventListener("keyup", function (event: any) {
-    if (event.key === "Enter") {
+  /*
+  buscador.addEventListener('keyup', function(event:any) {
+    if (event.key === 'Enter') {
       buscarPalabraClave();
     }
-  });
+  });*/
+
+  for (const item in buscador) {
+    if (Object.hasOwnProperty.call(buscador, item)) {
+      const element = buscador[item];
+      element.addEventListener("keyup", function (event: any) {
+        buscarPalabraClave(element);
+        if (event.key === "Enter") {
+          window.location.href = "/search-navbar";
+        }
+      });
+    }
+  }
 </script>
