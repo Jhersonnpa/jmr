@@ -5,17 +5,26 @@ const CATEGORIASJSON = categorias;
 const CATEGORIAS = CATEGORIASJSON.categorias.map((categoria:any) => {
    return categoria.name
 })
+const itemsSort = CATEGORIAS.sort((a:any, b:any) => {
+  if (a == b) {
+    return 0;
+  }
+  if (a < b) {
+    return -1;
+  }
+  return 1;
+});
 const pathname = Astro.url.pathname;
 ---
 
-<button id="hamburguerAside" data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
+<button id="hamburguerAside" data-drawer-target="default-sidebar" data-drawer-toggle="default-sidebar" aria-controls="default-sidebar" type="button" class="sticky top-20 z-30 inline-flex items-center p-2 mt-2 ms-3 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
   <span class="sr-only">Open sidebar</span>
   <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
   <path clip-rule="evenodd" fill-rule="evenodd" d="M2 4.75A.75.75 0 012.75 4h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 4.75zm0 10.5a.75.75 0 01.75-.75h7.5a.75.75 0 010 1.5h-7.5a.75.75 0 01-.75-.75zM2 10a.75.75 0 01.75-.75h14.5a.75.75 0 010 1.5H2.75A.75.75 0 012 10z"></path>
   </svg>
 </button>
 
-<aside id="default-sidebar" class="w-full md:fixed overflow-x-hidden md:left-0 md:h-full sm:p z-50 md:w-56 h-screen transition-transform -translate-x-full sm:translate-x-0 border border-r-1 border-y-0 border-l-0 border-[#a3a3a379]" aria-label="Sidebar">
+<aside id="default-sidebar" data-modal="close" class="w-full md:fixed top-[4.5rem] md:top-[82px] overflow-x-hidden md:left-0 md:h-full sm:p z-50 md:w-56 h-screen transition-transform -translate-x-full sm:translate-x-0 border border-r-1 border-y-0 border-l-0 border-[#a3a3a379]" aria-label="close">
   <div class="h-full px-3 py-4 bg-gray-50 dark:bg-[#13151a]">
      <ul class="h-[90%] overflow-auto space-y-2 font-medium">
       <li>
@@ -23,7 +32,7 @@ const pathname = Astro.url.pathname;
             <span class="ms-3">Todas</span>
          </a>
       </li>
-      {CATEGORIAS.map((categoria:any) => (
+      {itemsSort.map((categoria:any) => (
          <li>
             {
                <a href={`/${categoria.toLowerCase().replace(/ /g, "-" )}`} 
@@ -37,37 +46,6 @@ const pathname = Astro.url.pathname;
   </div>
 </aside>
 
-<script>
-   document.addEventListener('astro:after-swap', () => {
-      const hamburguerAside = document.getElementById("hamburguerAside")
-      const aside = document.getElementById("default-sidebar")
-      const body = document.getElementById("body")
-
-      hamburguerAside?.addEventListener("click", () => {
-         if (aside?.ariaHidden == "true") {
-            aside.setAttribute("aria-modal","true");
-            aside.setAttribute("role","dialog");
-            // aside.removeAttribute("aria-hidden")
-            aside.classList.add("transform-none")
-            body?.classList.add("overflow-hidden")
-            aside.classList.remove("-translate-x-full")
-            
-         } else {
-            aside?.removeAttribute("aria-modal")
-            aside?.removeAttribute("role")
-            aside?.setAttribute("aria-hidden","true")
-            aside?.classList.add("-translate-x-full")
-            aside?.classList.remove("transform-none")
-            body?.classList.remove("overflow-hidden")
-         }
-      })
-
-      window.onclick = function (){
-         if (aside?.ariaHidden == "true") hamburguerAside?.click()
-      }
-   })
-</script>
-
 <style>
    aside {
   width: 14rem;
@@ -76,8 +54,8 @@ const pathname = Astro.url.pathname;
   overflow-x: hidden;
   overflow-y: auto;
   left: 0;
-  top: 74px;
-  z-index: 50;
+  /* top: 82px; */
+  z-index: 40;
 }
       aside div ul::-webkit-scrollbar-track
       {
