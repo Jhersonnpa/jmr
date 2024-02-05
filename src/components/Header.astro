@@ -1,4 +1,4 @@
-  <header class="sticky top-0 z-50 flex w-full min-h-16 bg-[#f1f5f9]/70 border border-t-0 border-x-0 border-b-1 border-[#a3a3a3]" >
+<header class="sticky top-0 z-50 flex w-full min-h-16 bg-[#f1f5f9]/70 border border-t-0 border-x-0 border-b-1 border-[#a3a3a3]" >
   <nav class="bg-[#f1f5f9] border-gray-200 dark:bg-[#13151a] w-full">
     <div
       class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4"
@@ -116,13 +116,15 @@
   </nav>
 </header>
 
+
 <script>
-  
+  import recursos from "../../public/data/JMresource.json"
+
   document.addEventListener('astro:after-swap', () => {
     const darkIcon = document.getElementById("theme-toggle-dark-icon")
     const lightIcon = document.getElementById("theme-toggle-light-icon")
     const hamburguer = document.getElementById("hamburguer")
-    
+
     const navSearch = document.getElementById("navbar-search")
     const theme:any | string = (() => {
       if (typeof localStorage !== "undefined" && localStorage.getItem("theme")) {
@@ -132,7 +134,7 @@
         return "dark";
       }
       return "light";
-    })();
+    })(); 
 
     if (theme === "light") {
       document.documentElement.classList.remove("dark");
@@ -155,18 +157,53 @@
     };
 
     document.getElementById("theme-toggle")?.addEventListener("click", handleToggleClick);
-
       hamburguer?.addEventListener('click', () => {
-        if (hamburguer.ariaExpanded == "true") {
-            navSearch?.classList.remove("hidden")
-            hamburguer.ariaExpanded = "false";
-          } else {
-            navSearch?.classList.add("hidden");
-            hamburguer.ariaExpanded = "true";
-          }
-      })
-        
-    })
+      if (hamburguer.ariaExpanded == "true") {
+          navSearch?.classList.remove("hidden")
+          hamburguer.ariaExpanded = "false";
+      } else {
+        navSearch?.classList.add("hidden");
+        hamburguer.ariaExpanded = "true";
+      }
+      });
+  });
+
+
+  const buscador:any | null = document.getElementById('search-navbar');
+  const ITEMS = recursos.resources;
+
+  function buscarPalabraClave() {
+    const palabraClave = buscador.value.toLowerCase();
+    // con el startswith es para que empiece igual
+    let resultados = ITEMS.filter(item =>
+    // Verificar si el nombre o la descripción es exactamente igual a la palabra clave
+      item.name.toLowerCase().startsWith(palabraClave) ||
+      item.category.some(category => category.toLowerCase().startsWith(palabraClave))
+    );
+
+    // Aqui solo busca que coincida, da igual en que posicion de la palabra este.
+    // let resultados = ITEMS.filter(item =>
+    //   item.name.toLowerCase().includes(palabraClave) ||
+    //   item.description.toLowerCase().includes(palabraClave)
+    // );
+
+    // Este triple igual es para que la palabra solo puede ser igual, sino no muestra nada
+    // let resultados = ITEMS.filter(item =>
+    //   item.name.toLowerCase() === palabraClave ||
+    //   item.description.toLowerCase() === palabraClave
+    // );
+    
+
+
+    console.log(resultados);
+  }
+  
+  buscador.addEventListener('keyup', function(event:any) {
+    if (event.key === 'Enter') {
+      buscarPalabraClave();
+    }
+  });
+
 </script>
 
 
