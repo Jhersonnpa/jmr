@@ -21,6 +21,7 @@ const itemsSort = items.sort((a:any, b:any)=>{
         description={item.description}
         youtube={item.youtube}
         github={item.github}
+        style={`view-transition-name: ${item.name+item.link}`}
         />
       ))
     }

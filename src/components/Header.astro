@@ -1,5 +1,6 @@
 ---
 import Search from "./Search";
+import SearchMarc from "./Search";
 ---
 
 <header
@@ -22,32 +23,7 @@ import Search from "./Search";
       </a>
       <div class="relative flex md:order-2 md:min-w-80">
         <div class="hidden md:block md:w-full">
-          <div
-            class="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none"
-          >
-            <!-- <svg
-              class="w-4 h-4 text-gray-500 dark:text-gray-400"
-              aria-hidden="true"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 20 20"
-            >
-              <path
-                stroke="currentColor"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"></path>
-            </svg>
-            <span class="sr-only">Search icon</span> -->
-          </div>
-          <Search client:only="react"/>
-          <!-- <input
-            type="text"
-            id="search-navbar"
-            class="search-navbar block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-[#d5c5ff] focus:border-[#d5c5ff] dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-600 dark:focus:border-indigo-600"
-            placeholder="Buscar"
-          /> -->
+          <SearchMarc client:load />
         </div>
         <button
           id="hamburguer"
@@ -137,42 +113,5 @@ import Search from "./Search";
   </nav>
 </header>
 
-<script>
-  import recursos from "../../public/data/JMresource.json";
-  const buscador: any | null = document.getElementsByClassName("search-navbar");
-  const ITEMS = recursos.resources;
 
-  function buscarPalabraClave(buscador:any) {
-    const palabraClave = buscador.value.toLowerCase();
-    // con el startswith es para que empiece igual
-    let resultados = ITEMS.filter(
-      (item) =>
-        // Verificar si el nombre o la descripción es exactamente igual a la palabra clave
-        item.name.toLowerCase().startsWith(palabraClave) ||
-        item.category.some((category) =>
-          category.toLowerCase().startsWith(palabraClave)
-        )
-    );
-
-    localStorage.setItem("buscador", JSON.stringify(resultados));
-    
-  }
-  /*
-  buscador.addEventListener('keyup', function(event:any) {
-    if (event.key === 'Enter') {
-      buscarPalabraClave();
-    }
-  });*/
-
-  for (const item in buscador) {
-    if (Object.hasOwnProperty.call(buscador, item)) {
-      const element = buscador[item];
-      element.addEventListener("keyup", function (event: any) {
-        buscarPalabraClave(element);
-        if (event.key === "Enter") {
-          window.location.href = "/search-navbar";
-        }
-      });
-    }
-  }
-</script>
+./Search
