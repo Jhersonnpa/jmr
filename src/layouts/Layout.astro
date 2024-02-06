@@ -1,7 +1,7 @@
 ---
-// import { ViewTransitions } from "astro:transitions";
 import Header from "../components/Header.astro";
 import Aside from "../components/Aside.astro";
+import Scripts from "../components/Scripts.jsx";
 interface Props {
   title: string;
 }
@@ -10,45 +10,19 @@ const { title } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang="es" id="html">
   <head>
     <meta charset="UTF-8" />
     <meta name="description" content="Astro description" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
+    <meta name="view-transition" content="same-origin" />
     <title>{title}</title>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.css"
       rel="stylesheet"
     />
-    <script>
-      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-      if (
-        localStorage.getItem("theme") === "dark" ||
-        (!("theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
-        document.documentElement.classList.add("dark");
-      } else {
-        document.documentElement.classList.remove("dark");
-      }
-    </script>
-    <script>
-      document.addEventListener("astro:after-swap", () => {
-        // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-        if (
-          localStorage.getItem("theme") === "dark" ||
-          (!("theme" in localStorage) &&
-            window.matchMedia("(prefers-color-scheme: dark)").matches)
-        ) {
-          document.documentElement.classList.add("dark");
-        } else {
-          document.documentElement.classList.remove("dark");
-        }
-      });
-    </script>
-    <!-- <ViewTransitions /> -->
     <style>
       body::-webkit-scrollbar-track {
         -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
@@ -80,183 +54,6 @@ const { title } = Astro.props;
       </main>
     </div>
 
-    <script>
-      const themeToggleDarkIcon: any = document.getElementById(
-          "theme-toggle-dark-icon"
-        );
-        const themeToggleLightIcon: any = document.getElementById(
-          "theme-toggle-light-icon"
-        );
-
-        // Change the icons inside the button based on previous settings
-        if (
-          localStorage.getItem("theme") === "dark" ||
-          (!("theme" in localStorage) &&
-            window.matchMedia("(prefers-color-scheme: dark)").matches)
-        ) {
-          themeToggleLightIcon.classList.remove("hidden");
-        } else {
-          themeToggleDarkIcon.classList.remove("hidden");
-        }
-
-        const themeToggleBtn: any = document.getElementById("theme-toggle");
-
-        themeToggleBtn.addEventListener("click", function () {
-          // toggle icons inside button
-          themeToggleDarkIcon.classList.toggle("hidden");
-          themeToggleLightIcon.classList.toggle("hidden");
-
-          // if set via local storage previously
-          if (localStorage.getItem("theme")) {
-            if (localStorage.getItem("theme") === "light") {
-              document.documentElement.classList.add("dark");
-              localStorage.setItem("theme", "dark");
-              localStorage.setItem("color-theme", "dark");
-            } else {
-              document.documentElement.classList.remove("dark");
-              localStorage.setItem("theme", "light");
-              localStorage.setItem("color-theme", "light");
-            }
-
-            // if NOT set via local storage previously
-          } else {
-            if (document.documentElement.classList.contains("dark")) {
-              document.documentElement.classList.remove("dark");
-              localStorage.setItem("theme", "light");
-              localStorage.setItem("color-theme", "light");
-            } else {
-              document.documentElement.classList.add("dark");
-              localStorage.setItem("theme", "dark");
-              localStorage.setItem("color-theme", "dark");
-            }
-          }
-        });
-        localStorage.theme === "dark"
-          ? document.documentElement.classList.add("dark")
-          : document.documentElement.classList.add("light");
-    </script>
-    <!-- Navbar hamburguer open/close -->
-    <script>
-      // set the target element that will be collapsed or expanded (eg. navbar menu)
-      const navbar: any = document.getElementById("default-sidebar");
-      // optionally set a trigger element (eg. a button, hamburger icon)
-      const hamburguer: any = document.getElementById("hamburguerAside");
-      hamburguer.addEventListener("click", () => {
-        if (document.getElementById("hamburguer")?.ariaExpanded == "true") {
-          document.getElementById("hamburguer")?.click();
-        }
-        if (navbar.ariaLabel == "close") {
-          navbar.ariaLabel = "open";
-          navbar.removeAttribute("aria-hidden");
-          navbar.setAttribute("aria-modal", "true");
-          navbar.setAttribute("role", "dialog");
-          document.body.classList.add("overflow-hidden");
-          navbar.classList.add("transform-none");
-          navbar.classList.remove("-translate-x-full");
-        } else {
-          navbar.ariaLabel = "close";
-          navbar.removeAttribute("aria-modal");
-          navbar.removeAttribute("role");
-          navbar.setAttribute("aria-hidden", "true");
-          document.body.classList.remove("overflow-hidden");
-          navbar.classList.remove("transform-none");
-          navbar.classList.add("-translate-x-full");
-        }
-      });
-
-      document.getElementById("main")?.addEventListener("click", () => {
-        if (navbar.ariaLabel == "open") {
-          hamburguer.click();
-        }
-      });
-    </script>
-    <script>
-      document.addEventListener("astro:after-swap", () => {
-        // set the target element that will be collapsed or expanded (eg. navbar menu)
-        const navbar: any = document.getElementById("default-sidebar");
-        // optionally set a trigger element (eg. a button, hamburger icon)
-        const hamburguer: any = document.getElementById("hamburguerAside");
-        hamburguer.addEventListener("click", () => {
-          if (document.getElementById("hamburguer")?.ariaExpanded == "true") {
-            document.getElementById("hamburguer")?.click();
-          }
-          if (navbar.ariaLabel == "close") {
-            navbar.ariaLabel = "open";
-            navbar.removeAttribute("aria-hidden");
-            navbar.setAttribute("aria-modal", "true");
-            navbar.setAttribute("role", "dialog");
-            document.body.classList.add("overflow-hidden");
-            navbar.classList.add("transform-none");
-            navbar.classList.remove("-translate-x-full");
-          } else {
-            navbar.ariaLabel = "close";
-            navbar.removeAttribute("aria-modal");
-            navbar.removeAttribute("role");
-            navbar.setAttribute("aria-hidden", "true");
-            document.body.classList.remove("overflow-hidden");
-            navbar.classList.remove("transform-none");
-            navbar.classList.add("-translate-x-full");
-          }
-        });
-
-        document.getElementById("main")?.addEventListener("click", () => {
-          if (navbar.ariaLabel == "open") {
-            hamburguer.click();
-          }
-        });
-      });
-    </script>
-
-    <script>
-      // set the target element that will be collapsed or expanded (eg. navbar menu)
-      const navbar: any = document.getElementById("navbar-search");
-      // optionally set a trigger element (eg. a button, hamburger icon)
-      const hamburguer: any = document.getElementById("hamburguer");
-      hamburguer?.addEventListener("click", () => {
-        if (document.getElementById("default-sidebar")?.ariaLabel == "open") {
-          document.getElementById("hamburguerAside")?.click();
-        }
-        if (hamburguer?.ariaExpanded == "true") {
-          navbar?.classList.add("hidden");
-          hamburguer.ariaExpanded = "false";
-        } else {
-          navbar?.classList.remove("hidden");
-          hamburguer.ariaExpanded = "true";
-        }
-      });
-
-      document.getElementById("main")?.addEventListener("click", () => {
-        if (document.getElementById("hamburguer")?.ariaExpanded == "true") {
-          document.getElementById("hamburguer")?.click();
-        }
-      });
-
-      document.addEventListener("astro:after-swap", () => {
-        // set the target element that will be collapsed or expanded (eg. navbar menu)
-        const navbar: any = document.getElementById("navbar-search");
-        // optionally set a trigger element (eg. a button, hamburger icon)
-        const hamburguer: any = document.getElementById("hamburguer");
-        hamburguer?.addEventListener("click", () => {
-          if (document.getElementById("default-sidebar")?.ariaLabel == "open") {
-            document.getElementById("hamburguerAside")?.click();
-          }
-          if (hamburguer?.ariaExpanded == "true") {
-            navbar?.classList.add("hidden");
-            hamburguer.ariaExpanded = "false";
-          } else {
-            navbar?.classList.remove("hidden");
-            hamburguer.ariaExpanded = "true";
-          }
-        });
-
-        document.getElementById("main")?.addEventListener("click", () => {
-          if (document.getElementById("hamburguer")?.ariaExpanded == "true") {
-            document.getElementById("hamburguer")?.click();
-          }
-        });
-      });
-    </script>
-
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.1/flowbite.min.js"
     ></script>
@@ -267,5 +64,49 @@ const { title } = Astro.props;
         box-sizing: border-box;
       }
     </style>
+    <Scripts client:load />
   </body>
 </html>
+
+<script>
+  // Verifica si 'startViewTransition' está disponible en el documento
+if ((document as any).startViewTransition) {
+  // Agrega un event listener para el evento 'navigate'
+  window.navigation.addEventListener('navigate', (event: any) => {
+    const toUrl = new URL(event.destination.url);
+
+    // Es una página externa? Si es así, lo ignoramos
+    if (location.origin !== toUrl.origin) return;
+
+    // Si es una navegación en el mismo dominio (origen)
+    event.intercept({
+      async handler() {
+        try {
+          // Cargamos la página de destino utilizando fetch para obtener el HTML
+          const response = await fetch(toUrl.pathname);
+          const text = await response.text();
+          const regexHTML = /<html[^>]*>([\s\S]*?)<\/html>/i;
+
+          // Extraemos solo el contenido del HTML dentro de la etiqueta body
+          const [, data] = text.match(regexHTML) || [];
+
+          if (data) {
+            // Utilizamos la API de View Transition
+            (document as any).startViewTransition(() => {
+              const html = document.getElementById('html');
+
+              if (html) {
+                // Hacemos scroll hacia arriba del todo
+                html.innerHTML = data;
+                // document.documentElement.scrollTop = 0;
+              }
+            });
+          }
+        } catch (error) {
+          console.error('Error al cargar la página:', error);
+        }
+      },
+    });
+  });
+}
+</script>

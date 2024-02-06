@@ -1,13 +1,13 @@
-import { useState} from "react";
+import { useEffect, useState } from "react";
+import { buscador, recursosFiltrados} from "../state/state";
+import { useStore } from "@nanostores/react";
 
 const SearchContent = () => {
-  
-  // Estado para almacenar el valor que se mostrará en la interfaz y se guardará en localStorage
-  const [storedValue, setStoredValue] = useState(() => {
-    // Intenta obtener el valor almacenado en localStorage o usa un valor predeterminado
-    const savedValue = localStorage.getItem("buscador");
-    return savedValue ? JSON.parse(savedValue) : [{}];
-  });
+  const [items, setItems] = useState(useStore(recursosFiltrados));
+  const $buscador = useStore(buscador);
+  useEffect(() => {
+    return setItems(recursosFiltrados.get());
+  }, [buscador.get()]);
 
   const handleError = (e) => {
     e.target.src = "/images/notFound.webp";
@@ -15,14 +15,14 @@ const SearchContent = () => {
 
   return (
     <>
-      {storedValue ? (
-        storedValue.map((item, i) => (
+      {items.length >= 1 ? (
+        items.map((item, i) => (
           <div
             key={i}
             className="card-item flex flex-col justify-between max-w-sm w-full mx-auto min-h-80 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700"
           >
             <img
-              className="rounded-t-lg object-cover aspect-video min-h-52 max-h-52 w-96 transition-all duration-300 filter grayscale hover:grayscale-0"
+              className="rounded-t-lg object-cover aspect-video min-h-52 max-h-52 w-96 transition-all duration-300 filter"
               src={`/images/captura-${item.name
                 .toLowerCase()
                 .replace(/ /g, "")}.webp`}
@@ -33,8 +33,11 @@ const SearchContent = () => {
               <div className="py-3">
                 <div className="w-full flex flex-wrap gap-1">
                   {item.category.length > 1 ? (
-                    item.category.map((cat) => (
-                      <span className="bg-[#d5c5ff] text-gray-900/80 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-indigo-600 dark:text-white/90">
+                    item.category.map((cat, i) => (
+                      <span
+                        key={cat + i}
+                        className="bg-[#d5c5ff] text-gray-900/80 text-xs font-medium px-2.5 py-0.5 rounded dark:bg-indigo-600 dark:text-white/90"
+                      >
                         {cat}
                       </span>
                     ))
@@ -114,8 +117,9 @@ const SearchContent = () => {
                 </a>
               )}
               {item.youtube &&
-                item.youtube.map((el) => (
+                item.youtube.map((el,i) => (
                   <a
+                    key={el+i}
                     href={el}
                     target="_blank"
                     className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-900 rounded-lg group bg-gradient-to-br from-indigo-600 to-indigo-900 group-hover:from-indigo-600 group-hover:to-indigo-900 hover:text-white dark:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
@@ -147,7 +151,7 @@ const SearchContent = () => {
           </div>
         ))
       ) : (
-        <p>No existen coincidencias</p>
+        <p>No existen coincidencias de: '{$buscador}'</p>
       )}
     </>
   );
