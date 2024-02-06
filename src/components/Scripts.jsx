@@ -2,16 +2,46 @@ import { useEffect } from "react";
 
 const Scripts = () => {
   useEffect(() => {
-    // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-    if (
-      localStorage.getItem("theme") === "dark" ||
-      (!("theme" in localStorage) &&
-        window.matchMedia("(prefers-color-scheme: dark)").matches)
-    ) {
-      document.documentElement.classList.add("dark");
-    } else {
-      document.documentElement.classList.remove("dark");
+    if (document.startViewTransition) {
+      // Agrega un event listener para el evento 'navigate'
+      window.navigation.addEventListener("navigate", (event) => {
+        const toUrl = new URL(event.destination.url);
+
+        // Es una página externa? Si es así, lo ignoramos
+        if (location.origin !== toUrl.origin) return;
+
+        // Si es una navegación en el mismo dominio (origen)
+        event.intercept({
+          async handler() {
+            try {
+              // Cargamos la página de destino utilizando fetch para obtener el HTML
+              const response = await fetch(toUrl.pathname);
+              const text = await response.text();
+              const regexHTML = /<html[^>]*>([\s\S]*?)<\/html>/i;
+
+              // Extraemos solo el contenido del HTML dentro de la etiqueta body
+              const [, data] = text.match(regexHTML) || [];
+
+              if (data) {
+                // Utilizamos la API de View Transition
+                document.startViewTransition(() => {
+                  const html = document.getElementById("html");
+
+                  if (html) {
+                    // Hacemos scroll hacia arriba del todo
+                    html.innerHTML = data;
+                    // document.documentElement.scrollTop = 0;
+                  }
+                });
+              }
+            } catch (error) {
+              console.error("Error al cargar la página:", error);
+            }
+          },
+        });
+      });
     }
+    
 
     const themeToggleDarkIcon = document.getElementById(
       "theme-toggle-dark-icon"
@@ -122,51 +152,8 @@ const Scripts = () => {
         document.getElementById("hamburguer")?.click();
       }
     });
-    
-    if (document.startViewTransition) {
-      // Agrega un event listener para el evento 'navigate'
-      window.navigation.addEventListener('navigate', (event) => {
-        const toUrl = new URL(event.destination.url);
-    
-        // Es una página externa? Si es así, lo ignoramos
-        if (location.origin !== toUrl.origin) return;
-    
-        // Si es una navegación en el mismo dominio (origen)
-        event.intercept({
-          async handler() {
-            try {
-              // Cargamos la página de destino utilizando fetch para obtener el HTML
-              const response = await fetch(toUrl.pathname);
-              const text = await response.text();
-              const regexHTML = /<html[^>]*>([\s\S]*?)<\/html>/i;
-    
-              // Extraemos solo el contenido del HTML dentro de la etiqueta body
-              const [, data] = text.match(regexHTML) || [];
-    
-              if (data) {
-                // Utilizamos la API de View Transition
-                document.startViewTransition(() => {
-                  const html = document.getElementById('html');
-    
-                  if (html) {
-                    // Hacemos scroll hacia arriba del todo
-                    html.innerHTML = data;
-                    // document.documentElement.scrollTop = 0;
-                  }
-                });
-              }
-            } catch (error) {
-              console.error('Error al cargar la página:', error);
-            }
-          },
-        });
-      });
-    }
-
-
-
   }, []);
-  return <></>;
+  return <div className="hidden"></div>;
 };
 
 export default Scripts;

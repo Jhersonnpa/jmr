@@ -59,6 +59,7 @@ const SearchMarc = () => {
         className="search-navbar block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-[#d5c5ff] focus:border-[#d5c5ff] dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-600 dark:focus:border-indigo-600"
         placeholder="Busca por nombre o categoria"
         onChange={handleOnChange}
+        autoFocus
       />
     </>
   );
