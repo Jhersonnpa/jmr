@@ -1,8 +1,7 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
 import Header from "../components/Header.astro";
 import Aside from "../components/Aside.astro";
-import Scripts from "../components/Scripts.jsx";
-import ScriptsHead from "../components/ScriptsHead";
 interface Props {
   title: string;
 }
@@ -42,19 +41,8 @@ const { title } = Astro.props;
         background-color: #555;
       }
     </style>
-    <script>
-      // On page load or when changing themes, best to add inline in `head` to avoid FOUC
-      if (
-        localStorage.getItem("theme") === "dark" ||
-        (!("theme" in localStorage) &&
-          window.matchMedia("(prefers-color-scheme: dark)").matches)
-      ) {
-        document.documentElement.classList.add("dark");
-      } else {
-        document.documentElement.classList.remove("dark");
-      }
-    </script>
-    <ScriptsHead client:load />
+    <script src="../scripts/scriptsHead.js"></script>
+    <ViewTransitions />
   </head>
   <body
     id="body"
@@ -78,47 +66,6 @@ const { title } = Astro.props;
         box-sizing: border-box;
       }
     </style>
-  </body><Scripts client:load />
-  <script>
-    // Verifica si 'startViewTransition' está disponible en el documento
-    // if ((document as any).startViewTransition) {
-    //   // Agrega un event listener para el evento 'navigate'
-    //   window.navigation.addEventListener('navigate', (event: any) => {
-    //     const toUrl = new URL(event.destination.url);
-
-    //     // Es una página externa? Si es así, lo ignoramos
-    //     if (location.origin !== toUrl.origin) return;
-
-    //     // Si es una navegación en el mismo dominio (origen)
-    //     event.intercept({
-    //       async handler() {
-    //         try {
-    //           // Cargamos la página de destino utilizando fetch para obtener el HTML
-    //           const response = await fetch(toUrl.pathname);
-    //           const text = await response.text();
-    //           const regexHTML = /<html[^>]*>([\s\S]*?)<\/html>/i;
-
-    //           // Extraemos solo el contenido del HTML dentro de la etiqueta body
-    //           const [, data] = text.match(regexHTML) || [];
-
-    //           if (data) {
-    //             // Utilizamos la API de View Transition
-    //             (document as any).startViewTransition(() => {
-    //               const html = document.getElementById('html');
-
-    //               if (html) {
-    //                 // Hacemos scroll hacia arriba del todo
-    //                 html.innerHTML = data;
-    //                 // document.documentElement.scrollTop = 0;
-    //               }
-    //             });
-    //           }
-    //         } catch (error) {
-    //           console.error('Error al cargar la página:', error);
-    //         }
-    //       },
-    //     });
-    //   });
-    // }
-  </script>
+    <script src="../scripts/scripts.js"></script>
+  </body>
 </html>
