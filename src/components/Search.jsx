@@ -1,10 +1,12 @@
 import { useStore } from "@nanostores/react";
-import { buscador,recursos, recursosFiltrados } from "../state/state";
-
+import { buscador, recursos, recursosFiltrados } from "../state/state";
+import { useState } from "react";
 
 const SearchMarc = () => {
   const $palabraClave = useStore(buscador);
   const $recursos = useStore(recursos);
+  const [valor, setValor] = useState($palabraClave);
+
   // console.log(`palabraclave: ${$palabraClave}`);
   // console.log(`recursos:`+JSON.stringify($recursos))
 
@@ -21,14 +23,18 @@ const SearchMarc = () => {
         )
     );
 
-    recursosFiltrados.set(resultados)
-    if(location.pathname != "/search-navbar"){
-      document.getElementById("searchButton").click();
+    recursosFiltrados.set(resultados);
+    if (location.pathname != "/search-navbar") {
+      setTimeout(() => {
+        document.getElementById("searchButton").click();
+      }, 800);
+      
     }
   };
 
   const handleOnChange = (e) => {
     buscador.set(e.target.value);
+    setValor(e.target.value);
     buscarPalabraClave(buscador.get());
   };
 
@@ -53,12 +59,13 @@ const SearchMarc = () => {
         <a id="searchButton" href="/search-navbar" className="hidden"></a>
       </div>
       <input
-        value={$palabraClave}
+        value={valor}
         type="text"
         id="search-navbar"
         className="search-navbar block w-full p-2 ps-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-[#d5c5ff] focus:border-[#d5c5ff] dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-indigo-600 dark:focus:border-indigo-600"
         placeholder="Busca por nombre o categoria"
         onChange={handleOnChange}
+        autoFocus={true}
       />
     </>
   );
