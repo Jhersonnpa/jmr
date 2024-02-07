@@ -4,9 +4,10 @@ import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Search">
-  <div
+  <main
+    id="main"
     class="flex justify-between flex-wrap ml-0 sm:ml-56 p-6 h-full min-h-[92vh]"
   >
     <SearchContent client:load />
-  </div>
+  </main>
 </Layout>
