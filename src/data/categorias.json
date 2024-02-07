@@ -1,6 +1,12 @@
 {
     "categorias":[
         {
+            "name": "De pago"
+        },
+        {
+            "name": "Gratis"
+        },
+        {
             "name": "API"
         },
         {
