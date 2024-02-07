@@ -16,6 +16,7 @@ if (theme === "light") {
 
 window.localStorage.setItem("theme", theme);
 
+
 // View Transition
 document.addEventListener("astro:page-load", () => {
   const theme = (() => {
