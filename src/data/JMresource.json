@@ -5,7 +5,10 @@
       "name": "Midu",
       "link": "https://midu.dev/",
       "description": "",
-      "youtube": ["https://www.youtube.com/@midulive","https://www.youtube.com/@midudev"],
+      "youtube": [
+        "https://www.youtube.com/@midulive",
+        "https://www.youtube.com/@midudev"
+      ],
       "github": "https://github.com/midudev"
     },
     {
@@ -13,7 +16,10 @@
       "name": "Fazt",
       "link": "https://faztweb.com/",
       "description": "",
-      "youtube": ["https://www.youtube.com/@FaztTech","https://www.youtube.com/@FaztCode"],
+      "youtube": [
+        "https://www.youtube.com/@FaztTech",
+        "https://www.youtube.com/@FaztCode"
+      ],
       "github": "https://github.com/fazt"
     },
     {
@@ -26,7 +32,7 @@
     },
     {
       "category": ["Gratis","Creadores de contenido"],
-      "name": "Jonas Schemed",
+      "name": "Jonas Schmedtmann",
       "link": "https://codingheroes.io/",
       "description": "Cursos de pago, en UDEMY",
       "youtube": [""],
@@ -56,8 +62,22 @@
       "youtube": ["https://www.youtube.com/@deivchoi"],
       "github": "https://github.com/choidavid4"
     },
-
-    
+    {
+      "category": ["Gratis","Creadores de contenido"],
+      "name": "Web Prodigies",
+      "link": "https://www.skool.com/freelance-prodigies-2202",
+      "description": "",
+      "youtube": ["https://www.youtube.com/@webprodigies"],
+      "github": "https://github.com/webprodigies"
+    },
+    {
+      "category": ["Gratis","Creadores de contenido"],
+      "name": "Josh Tried Coding",
+      "link": "",
+      "description": "",
+      "youtube": ["https://www.youtube.com/@joshtriedcoding"],
+      "github": "https://github.com/joschan21"
+    },
     {
       "category": ["Gratis","Imagenes", "Buscadores"],
       "name": "Pexels",
@@ -203,7 +223,7 @@
       "youtube": [],
       "github": ""
     },
-        
+
     {
       "category": ["Gratis","Imagenes", "Editor de imagenes"],
       "name": "Photopea",
@@ -270,7 +290,6 @@
       "github": ""
     },
 
-
     {
       "category": ["Gratis","Organizador de tareas"],
       "name": "Notion",
@@ -287,7 +306,6 @@
       "youtube": [],
       "github": ""
     },
-    
 
     {
       "category": ["Gratis","Imagenes", "Minimizador"],
@@ -297,7 +315,6 @@
       "youtube": [],
       "github": ""
     },
-
 
     {
       "category": ["Gratis","Herramientas", "Servidores"],
@@ -331,7 +348,6 @@
       "youtube": [],
       "github": ""
     },
-
 
     {
       "category": ["Gratis","Design system"],
@@ -422,7 +438,6 @@
       "github": ""
     },
 
-
     {
       "category": ["Gratis","Herramientas"],
       "name": "Flow CV",
@@ -504,7 +519,6 @@
       "github": ""
     },
 
-
     {
       "category": ["Gratis","Buscadores", "IA"],
       "name": "Ai findy",
@@ -513,7 +527,6 @@
       "youtube": [],
       "github": ""
     },
-
 
     {
       "category": ["Gratis","Blogs"],
@@ -556,7 +569,6 @@
       "github": ""
     },
 
-
     {
       "category": ["Gratis","Traductores"],
       "name": "Deepl",
@@ -581,7 +593,6 @@
       "youtube": [],
       "github": ""
     },
-
 
     {
       "category": ["Gratis","Correctores"],
@@ -608,7 +619,6 @@
       "github": ""
     },
 
-
     {
       "category": ["Gratis","Teoria", "SQL"],
       "name": "Cheatsheet SQL",
@@ -617,7 +627,6 @@
       "youtube": [],
       "github": ""
     },
-
 
     {
       "category": ["Gratis","Diagramas"],
@@ -643,9 +652,6 @@
       "youtube": [],
       "github": ""
     },
-
-
-
 
     {
       "category": ["Gratis","Nextjs"],
@@ -680,8 +686,6 @@
       "github": ""
     },
 
-
-
     {
       "category": ["Gratis","API"],
       "name": "Reqres",
@@ -706,7 +710,6 @@
       "youtube": [],
       "github": ""
     },
-
 
     {
       "category": ["Gratis","Generadores", "IA", "Imagenes"],
@@ -821,7 +824,6 @@
       "github": ""
     },
 
-
     {
       "category": ["Gratis","Fuentes"],
       "name": "Google Fonts",
@@ -862,7 +864,6 @@
       "youtube": [],
       "github": ""
     },
-
 
     {
       "category": ["Gratis","Scripts"],
@@ -912,7 +913,6 @@
       "youtube": [],
       "github": ""
     },
-
 
     {
       "category": ["Gratis","Teoria"],
@@ -994,7 +994,6 @@
       "youtube": [],
       "github": ""
     },
-
 
     {
       "category": ["Gratis","Iconos"],
