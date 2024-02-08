@@ -17,9 +17,9 @@ const SearchMarc = () => {
     let resultados = $recursos.items.filter(
       (item) =>
         // Verificar si el nombre o la descripción es exactamente igual a la palabra clave
-        item.name.toLowerCase().startsWith(palabraClave) ||
+        item.name.toLowerCase().startsWith(palabraClave.toLowerCase()) ||
         item.category.some((category) =>
-          category.toLowerCase().startsWith(palabraClave)
+          category.toLowerCase().startsWith(palabraClave.toLowerCase())
         )
     );
 

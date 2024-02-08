@@ -1,7 +1,7 @@
 {
   "resources": [
     {
-      "category": ["Creadores de contenido"],
+      "category": ["Gratis","Creadores de contenido"],
       "name": "Midu",
       "link": "https://midu.dev/",
       "description": "",
@@ -12,7 +12,7 @@
       "github": "https://github.com/midudev"
     },
     {
-      "category": ["Creadores de contenido"],
+      "category": ["Gratis","Creadores de contenido"],
       "name": "Fazt",
       "link": "https://faztweb.com/",
       "description": "",
@@ -23,7 +23,7 @@
       "github": "https://github.com/fazt"
     },
     {
-      "category": ["Creadores de contenido"],
+      "category": ["Gratis","Creadores de contenido"],
       "name": "Code with Antonio",
       "link": "https://www.codewithantonio.com/",
       "description": "",
@@ -31,7 +31,7 @@
       "github": ""
     },
     {
-      "category": ["Creadores de contenido"],
+      "category": ["Gratis","Creadores de contenido"],
       "name": "Jonas Schmedtmann",
       "link": "https://codingheroes.io/",
       "description": "Cursos de pago, en UDEMY",
@@ -39,7 +39,7 @@
       "github": ""
     },
     {
-      "category": ["Creadores de contenido"],
+      "category": ["Gratis","Creadores de contenido"],
       "name": "Codigo 369",
       "link": "https://codigo369.com/",
       "description": "",
@@ -47,7 +47,7 @@
       "github": "https://github.com/Franklin369"
     },
     {
-      "category": ["Creadores de contenido"],
+      "category": ["Gratis","Creadores de contenido"],
       "name": "Bedimcode",
       "link": "",
       "description": "",
@@ -55,7 +55,7 @@
       "github": "https://github.com/bedimcode"
     },
     {
-      "category": ["Creadores de contenido"],
+      "category": ["Gratis","Creadores de contenido"],
       "name": "Deivchoi",
       "link": "",
       "description": "",
@@ -63,7 +63,7 @@
       "github": "https://github.com/choidavid4"
     },
     {
-      "category": ["Creadores de contenido"],
+      "category": ["Gratis","Creadores de contenido"],
       "name": "Web Prodigies",
       "link": "https://www.skool.com/freelance-prodigies-2202",
       "description": "",
@@ -71,7 +71,7 @@
       "github": "https://github.com/webprodigies"
     },
     {
-      "category": ["Creadores de contenido"],
+      "category": ["Gratis","Creadores de contenido"],
       "name": "Josh Tried Coding",
       "link": "",
       "description": "",
@@ -79,15 +79,87 @@
       "github": "https://github.com/joschan21"
     },
     {
-      "category": ["Imagenes", "Buscadores"],
+      "category": ["Gratis","Imagenes", "Buscadores"],
       "name": "Pexels",
       "link": "https://www.pexels.com/es-es/",
-      "description": "Buscador de imagenes sin copyright.",
+      "description": "Fotos y vídeos de stock gratis que puedes usar donde quieras. Busca millones de imágenes de stock de alta calidad y libres de regalías.",
       "youtube": [],
       "github": ""
     },
     {
-      "category": ["Imagenes", "Buscadores"],
+      "category": ["Gratis","Imagenes", "Buscadores"],
+      "name": "Pixabay",
+      "link": "https://pixabay.com/es/",
+      "description": "Encuentra las mejores imágenes gratis para descargar. ✓ Gratis para fines comerciales ✓ Sin atribución requerida",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Imagenes","Buscadores"],
+      "name": "Shopify stock photos",
+      "link": "https://www.shopify.com/stock-photos",
+      "description": "Browse thousands of beautiful copyright-free images.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Imagenes","Buscadores"],
+      "name": "Stock Snap",
+      "link": "https://stocksnap.io/",
+      "description": "The best source for free, CC0, do-what-you-want-with stock photos. Browse and download thousands of copyright-free stock images.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Imagenes","Buscadores"],
+      "name": "Gratisography",
+      "link": "https://gratisography.com/",
+      "description": "The world's quirkiest collection of free high-resolution pictures you can use on your personal and commercial projects. All completely free of copyright restrictions. New photos added every week!",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Imagenes","Buscadores"],
+      "name": "Unsplash",
+      "link": "https://unsplash.com/es",
+      "description": "Bonitas imágenes y fotos gratuitas que puedes descargar y utilizar en cualquier proyecto. Mejor que cualquier foto de stock o libre de derechos.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Imagenes","Buscadores"],
+      "name": "Freepng",
+      "link": "https://www.freepnges.com/",
+      "description": "Freepnges.com: descarga ilimitada de la mayor base de datos de archivos png gratuitos y transparentes",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Imagenes","Buscadores"],
+      "name": "FondosMil",
+      "link": "https://fondosmil.co/vectoriales",
+      "description": "Los mejores  fondos vectoriales gratis para descargar. Wallpapers HD vectoriales.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Imagenes","Buscadores"],
+      "name": "Wallpaper Flare",
+      "link": "https://www.wallpaperflare.com/",
+      "description": "Wallpaper Flare collects most beautiful HD wallpapers for PC, mobile and tablet desktop, including 720P, 1080P, 2K, 4K, 5K, 8K resolutions, all wallpapers are free download",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Imagenes","Buscadores"],
+      "name": "Fondos Animados",
+      "link": "https://fondosanimados.com/",
+      "description": "Explora y descarga +4000 fondos de pantalla para PC, Android & iPhone en 4K & HD. Fondos animados, en movimiento y estáticos gratis.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Imagenes", "Buscadores"],
       "name": "Place it",
       "link": "https://placeit.net/free-templates",
       "description": "Buscador de imagenes.",
@@ -96,7 +168,7 @@
     },
 
     {
-      "category": ["Imagenes", "Ilustraciones"],
+      "category": ["Gratis","Imagenes", "Ilustraciones"],
       "name": "DrawKit",
       "link": "https://www.drawkit.com/",
       "description": "Web con muchas ilustraciones.",
@@ -104,7 +176,7 @@
       "github": ""
     },
     {
-      "category": ["Imagenes", "Ilustraciones"],
+      "category": ["Gratis","Imagenes", "Ilustraciones"],
       "name": "Glaze",
       "link": "https://www.glazestock.com/",
       "description": "Web con muchas ilustraciones.",
@@ -112,7 +184,7 @@
       "github": ""
     },
     {
-      "category": ["Imagenes", "Ilustraciones"],
+      "category": ["Gratis","Imagenes", "Ilustraciones"],
       "name": "Humaaans",
       "link": "https://www.humaaans.com/",
       "description": "Web con muchas ilustraciones relacionadas con humanos.",
@@ -120,7 +192,7 @@
       "github": ""
     },
     {
-      "category": ["Imagenes", "Ilustraciones"],
+      "category": ["Gratis","Imagenes", "Ilustraciones"],
       "name": "Ira design",
       "link": "https://iradesign.io/",
       "description": "Web con muchas ilustraciones.",
@@ -128,7 +200,7 @@
       "github": ""
     },
     {
-      "category": ["Imagenes", "Ilustraciones"],
+      "category": ["Gratis","Imagenes", "Ilustraciones"],
       "name": "Undraw",
       "link": "https://undraw.co/illustrations",
       "description": "Web con muchas ilustraciones relacionadas con acciones humanas.",
@@ -136,7 +208,7 @@
       "github": ""
     },
     {
-      "category": ["Imagenes", "Ilustraciones"],
+      "category": ["Gratis","Imagenes", "Ilustraciones"],
       "name": "Open Doodles",
       "link": "https://www.opendoodles.com/",
       "description": "Web con muchas ilustraciones.",
@@ -144,7 +216,7 @@
       "github": ""
     },
     {
-      "category": ["Imagenes", "Ilustraciones"],
+      "category": ["Gratis","Imagenes", "Ilustraciones"],
       "name": "Many pixels",
       "link": "https://www.manypixels.co/gallery",
       "description": "Web con muchas ilustraciones.",
@@ -153,7 +225,7 @@
     },
 
     {
-      "category": ["Imagenes", "Editor de imagenes"],
+      "category": ["Gratis","Imagenes", "Editor de imagenes"],
       "name": "Photopea",
       "link": "https://www.photopea.com/",
       "description": "Editor de imagenes online gratis, alterantiva a Photoshop.",
@@ -161,7 +233,7 @@
       "github": ""
     },
     {
-      "category": ["Imagenes", "Editor de imagenes"],
+      "category": ["Gratis","Imagenes", "Editor de imagenes"],
       "name": "Adobe Photoshop",
       "link": "https://www.adobe.com/es/products/photoshop/landpa.html?gclid=Cj0KCQiAqsitBhDlARIsAGMR1RikbZQmZpM0bBFIe9GLk-w3QUPVbGVgNDYz0TCZTJ1mR5q1Y15w4rUaApioEALw_wcB&mv=search&s_kwcid=AL!3085!3!441887029672!e!!g!!adobe%20photoshop!1445901735!56657232416&mv=search&mv2=paidsearch&sdid=2XBSBWBF&ef_id=Cj0KCQiAqsitBhDlARIsAGMR1RikbZQmZpM0bBFIe9GLk-w3QUPVbGVgNDYz0TCZTJ1mR5q1Y15w4rUaApioEALw_wcB:G:s&s_kwcid=AL!3085!3!441887029672!e!!g!!adobe%20photoshop!1445901735!56657232416&gad_source=1",
       "description": "Aplicación para editar imagenes de manera profesional. De pago.",
@@ -170,7 +242,7 @@
     },
 
     {
-      "category": ["Imagenes", "Herramientas"],
+      "category": ["Gratis","Imagenes", "Herramientas"],
       "name": "Remove.bg",
       "link": "https://www.remove.bg/es",
       "description": "Web para quitar el background de una imagen.",
@@ -178,7 +250,7 @@
       "github": ""
     },
     {
-      "category": ["Imagenes", "Herramientas"],
+      "category": ["Gratis","Imagenes", "Herramientas"],
       "name": "Imagebb",
       "link": "https://es.imgbb.com/",
       "description": "Web donde subes una imagen y te genera un link a  una web con la imagen.",
@@ -186,7 +258,7 @@
       "github": ""
     },
     {
-      "category": ["Imagenes", "Herramientas"],
+      "category": ["Gratis","Imagenes", "Herramientas"],
       "name": "Clippy",
       "link": " https://bennettfeely.com/clippy/",
       "description": "Web donde subes una imagen y te deja darle forma o crear formas personalizadas.",
@@ -194,7 +266,7 @@
       "github": ""
     },
     {
-      "category": ["Convertidores"],
+      "category": ["Gratis","Convertidores"],
       "name": "I love PDF",
       "link": "https://www.ilovepdf.com/es/pdf_a_word",
       "description": "Web donde te convierte un word a pdf.",
@@ -202,7 +274,7 @@
       "github": ""
     },
     {
-      "category": ["Convertidores"],
+      "category": ["Gratis","Convertidores"],
       "name": "Quick Type",
       "link": "https://quicktype.io/",
       "description": "Convertidor de json.",
@@ -210,7 +282,7 @@
       "github": ""
     },
     {
-      "category": ["Convertidores"],
+      "category": ["Gratis","Convertidores"],
       "name": "SVG OMG",
       "link": "https://jakearchibald.github.io/svgomg/",
       "description": "Subes una imagen svg y te da el codigo svg para la web.",
@@ -219,7 +291,7 @@
     },
 
     {
-      "category": ["Organizador de tareas"],
+      "category": ["Gratis","Organizador de tareas"],
       "name": "Notion",
       "link": "https://www.notion.so/",
       "description": "Web para organizar tareas de los proyectos.",
@@ -227,7 +299,7 @@
       "github": ""
     },
     {
-      "category": ["Organizador de tareas"],
+      "category": ["Gratis","Organizador de tareas"],
       "name": "To do ist",
       "link": "https://todoist.com/es",
       "description": "Web para organizar tareas de los proyectos.",
@@ -236,7 +308,7 @@
     },
 
     {
-      "category": ["Imagenes", "Minimizador"],
+      "category": ["Gratis","Imagenes", "Minimizador"],
       "name": "Squoosh",
       "link": "https://squoosh.app/",
       "description": "Web para minimizar imagenes con calidad.",
@@ -245,7 +317,7 @@
     },
 
     {
-      "category": ["Herramientas", "Servidores"],
+      "category": ["Gratis","Herramientas", "Servidores"],
       "name": "Media Fire",
       "link": "https://app.mediafire.com/myfiles",
       "description": "Subes archivos y te da un link para compartir.",
@@ -253,7 +325,7 @@
       "github": ""
     },
     {
-      "category": ["Servidores"],
+      "category": ["Gratis","Servidores"],
       "name": "Cloudinary",
       "link": "https://cloudinary.com/",
       "description": "Servidor web en la nube.",
@@ -261,7 +333,7 @@
       "github": ""
     },
     {
-      "category": ["Servidores"],
+      "category": ["Gratis","Servidores"],
       "name": "Cloudflare",
       "link": "https://www.cloudflare.com/es-es/",
       "description": "Servidor web en la nube.",
@@ -269,7 +341,7 @@
       "github": ""
     },
     {
-      "category": ["Servidores"],
+      "category": ["Gratis","Servidores"],
       "name": "Amazon web service",
       "link": "https://aws.amazon.com/es/free/?gclid=CjwKCAiA_OetBhAtEiwAPTeQZ9Wiqrhtql2JEJIfMlJZ0fFmrKa2gN_almv1wNLNdl-nuAxhUYvwSRoCP3gQAvD_BwE&trk=2d5aad89-991b-4184-98b5-1f562e3102c8&sc_channel=ps&ef_id=CjwKCAiA_OetBhAtEiwAPTeQZ9Wiqrhtql2JEJIfMlJZ0fFmrKa2gN_almv1wNLNdl-nuAxhUYvwSRoCP3gQAvD_BwE:G:s&s_kwcid=AL!4422!3!561218200770!e!!g!!aws!15250970096!135343037928&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all",
       "description": "Servidor web en la nube de Amazon",
@@ -278,7 +350,7 @@
     },
 
     {
-      "category": ["Design system"],
+      "category": ["Gratis","Design system"],
       "name": "Daisy ui",
       "link": "https://daisyui.com/",
       "description": "Componentes hechos con tailwind",
@@ -286,7 +358,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "Astro"],
+      "category": ["Gratis","Design system", "Astro"],
       "name": "Flowbite",
       "link": "https://flowbite.com/",
       "description": "Componentes hechos con tailwind para Astro",
@@ -294,7 +366,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "Reactjs", "Nextjs"],
+      "category": ["Gratis","Design system", "Reactjs", "Nextjs"],
       "name": "Shadcn ui",
       "link": "https://ui.shadcn.com/",
       "description": "Componentes para react y next...",
@@ -302,7 +374,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "Reactjs", "Nextjs"],
+      "category": ["Gratis","Design system", "Reactjs", "Nextjs"],
       "name": "Chakra ui",
       "link": "https://chakra-ui.com/",
       "description": "Componentes para react y next...",
@@ -310,7 +382,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "Reactjs", "Nextjs"],
+      "category": ["Gratis","Design system", "Reactjs", "Nextjs"],
       "name": "Headless ui",
       "link": "https://headlessui.com/",
       "description": "Componentes para react y next...",
@@ -318,7 +390,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "Reactjs", "Nextjs"],
+      "category": ["Gratis","Design system", "Reactjs", "Nextjs"],
       "name": "Mui",
       "link": "https://mui.com/",
       "description": "Componentes para react y next...",
@@ -326,7 +398,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "Astro"],
+      "category": ["Gratis","Design system", "Astro"],
       "name": "Tailwind Components",
       "link": "https://tailwindcomponents.com/",
       "description": "Componentes hechos con tailwind.",
@@ -334,7 +406,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "Reactjs", "Nextjs"],
+      "category": ["Gratis","Design system", "Reactjs", "Nextjs"],
       "name": "Web3 Components",
       "link": "https://web3templates.com/components",
       "description": "Componentes hechos con tailwind para js y next...",
@@ -342,7 +414,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "Astro"],
+      "category": ["Gratis","Design system", "Astro"],
       "name": "Tailwind elements",
       "link": "https://tw-elements.com/",
       "description": "Componentes hechos con tailwind.",
@@ -350,7 +422,7 @@
       "github": ""
     },
     {
-      "category": ["Design system", "Reactjs", "Nextjs"],
+      "category": ["Gratis","Design system", "Reactjs", "Nextjs"],
       "name": "Keep",
       "link": "https://react.keepdesign.io/",
       "description": "Componentes hechos con tailwind para react y next...",
@@ -358,7 +430,7 @@
       "github": ""
     },
     {
-      "category": ["Librerias", "CSS", "Design system"],
+      "category": ["Gratis","Librerias", "CSS", "Design system"],
       "name": "Tailwind CSS",
       "link": "https://tailwindcss.com/",
       "description": "Libreria css",
@@ -367,7 +439,7 @@
     },
 
     {
-      "category": ["Herramientas"],
+      "category": ["Gratis","Herramientas"],
       "name": "Flow CV",
       "link": "https://flowcv.com/",
       "description": "Creador de curriculum",
@@ -375,15 +447,15 @@
       "github": ""
     },
     {
-      "category": ["Herramientas"],
+      "category": ["Gratis","Herramientas"],
       "name": "Canva",
       "link": "https://www.canva.com/es_es/",
-      "description": "Plantillas editables para todo.",
+      "description": "Discover Canva's beautiful photos and images for your every day design needs. Choose from millions of highly curated free and premium stock photos.",
       "youtube": [],
       "github": ""
     },
     {
-      "category": ["Herramientas"],
+      "category": ["Gratis","Herramientas"],
       "name": "10015",
       "link": "https://10015.io/",
       "description": "Web con muchos herramientas para programadores.",
@@ -391,7 +463,7 @@
       "github": ""
     },
     {
-      "category": ["Herramientas"],
+      "category": ["Gratis","Herramientas"],
       "name": "Coding Heroes",
       "link": "https://codingheroes.io/resources/",
       "description": "Web personal de Jonas Schemmed con muchos recursos.",
@@ -399,7 +471,7 @@
       "github": ""
     },
     {
-      "category": ["Herramientas"],
+      "category": ["Gratis","Herramientas"],
       "name": "Interfacer",
       "link": "https://interfacer.xyz/",
       "description": "Web con muchos herramientas para programadores.",
@@ -407,7 +479,7 @@
       "github": ""
     },
     {
-      "category": ["Herramientas"],
+      "category": ["Gratis","Herramientas"],
       "name": "Omatsuri",
       "link": "https://omatsuri.app/",
       "description": "Web con muchos herramientas para programadores.",
@@ -415,7 +487,7 @@
       "github": ""
     },
     {
-      "category": ["Herramientas"],
+      "category": ["Gratis","Herramientas"],
       "name": "Dev resources",
       "link": "https://devresourc.es/",
       "description": "Web con muchos herramientas para programadores.",
@@ -423,7 +495,7 @@
       "github": ""
     },
     {
-      "category": ["Herramientas"],
+      "category": ["Gratis","Herramientas"],
       "name": "Screenshot to code",
       "link": "https://screenshottocode.com/",
       "description": "Web donde subes una imagen y te da el codigo.",
@@ -431,7 +503,7 @@
       "github": ""
     },
     {
-      "category": ["Herramientas"],
+      "category": ["Gratis","Herramientas"],
       "name": "Bg ibelick",
       "link": "https://bg.ibelick.com/",
       "description": "Web de backgrounds creados.",
@@ -439,7 +511,7 @@
       "github": ""
     },
     {
-      "category": ["Herramientas", "SQL"],
+      "category": ["Gratis","Herramientas", "SQL"],
       "name": "Human to database",
       "link": "https://humantodatabase.com/",
       "description": "Web para escribir normal y te da la sentencia sql.",
@@ -448,7 +520,7 @@
     },
 
     {
-      "category": ["Buscadores", "IA"],
+      "category": ["Gratis","Buscadores", "IA"],
       "name": "Ai findy",
       "link": "https://aifindy.com/",
       "description": "Web donde se puede buscar recursos y ia's.",
@@ -457,7 +529,7 @@
     },
 
     {
-      "category": ["Blogs"],
+      "category": ["Gratis","Blogs"],
       "name": "30 seconds of code",
       "link": "https://www.30secondsofcode.org/",
       "description": "Blog donde la gente sube información sobre programación.",
@@ -465,7 +537,7 @@
       "github": ""
     },
     {
-      "category": ["Blogs", "Documentacion"],
+      "category": ["Gratis","Blogs", "Documentacion"],
       "name": "Web dev simplified",
       "link": "https://blog.webdevsimplified.com/",
       "description": "Blog donde la gente sube información sobre programación y puedes buscar documentación de los lenguajes de programación.",
@@ -473,7 +545,7 @@
       "github": ""
     },
     {
-      "category": ["Documentacion", "Teoria"],
+      "category": ["Gratis","Documentacion", "Teoria"],
       "name": "Geeks for geeks",
       "link": "https://www.geeksforgeeks.org/",
       "description": "Blog .",
@@ -481,7 +553,7 @@
       "github": ""
     },
     {
-      "category": ["Documentacion", "Teoria"],
+      "category": ["Gratis","Documentacion", "Teoria"],
       "name": "Devdocs",
       "link": "https://devdocs.io/",
       "description": "Blog .",
@@ -489,7 +561,7 @@
       "github": ""
     },
     {
-      "category": ["Documentacion", "Buscadores"],
+      "category": ["Gratis","Documentacion", "Buscadores"],
       "name": "Code to go",
       "link": "https://codetogo.io/",
       "description": "Web donde puedes hacer preguntas de como se hace alguna cosa y te da el codigo.",
@@ -498,7 +570,7 @@
     },
 
     {
-      "category": ["Traductores"],
+      "category": ["Gratis","Traductores"],
       "name": "Deepl",
       "link": "https://www.deepl.com/translator",
       "description": "Web traductora de texto.",
@@ -506,7 +578,7 @@
       "github": ""
     },
     {
-      "category": ["Traductores"],
+      "category": ["Gratis","Traductores"],
       "name": "Traductor Google",
       "link": "https://translate.google.es/?hl=es",
       "description": "Web traductora de texto.",
@@ -514,7 +586,7 @@
       "github": ""
     },
     {
-      "category": ["Traductores"],
+      "category": ["Gratis","Traductores"],
       "name": "Wordreference",
       "link": "https://www.wordreference.com/es/",
       "description": "Web traductora de texto.",
@@ -523,7 +595,7 @@
     },
 
     {
-      "category": ["Correctores"],
+      "category": ["Gratis","Correctores"],
       "name": "Soft Catala",
       "link": "https://www.softcatala.org/corrector/",
       "description": "Corrector de faltas ortográficas de catalán.",
@@ -531,7 +603,7 @@
       "github": ""
     },
     {
-      "category": ["Correctores"],
+      "category": ["Gratis","Correctores"],
       "name": "Language tool",
       "link": "https://languagetool.org/es?utm_source=google&utm_medium=cpc&utm_campaign=GA_LT_ES_es_Sales_KW_Generic_ROAS-200_0Value&utm_content=corrector&utm_term=corrector%20castellano&gad_source=1&gclid=CjwKCAiA_OetBhAtEiwAPTeQZ2N55-nqWl6J4iamoT15S3k1BJtBlOFismKlOZu9aa1fxV8mrjUwAhoC6s8QAvD_BwE",
       "description": "Corrector de faltas ortográficas de castellano.",
@@ -539,7 +611,7 @@
       "github": ""
     },
     {
-      "category": ["Correctores"],
+      "category": ["Gratis","Correctores"],
       "name": "Insta text",
       "link": "https://instatext.io/?campaignid=12215279742&adgroupid=116798893883&keyword=kwd-16631476&creative=549664414479&device=c&network=g&gad_source=1&gclid=CjwKCAiA_OetBhAtEiwAPTeQZyzry6C3Z3RILePvuXMDlmMcrQ3oSU7H_JIePilGgF5-dk9HB4CzSxoCrhEQAvD_BwE",
       "description": "Corrector de faltas ortográficas de inglés.",
@@ -548,7 +620,7 @@
     },
 
     {
-      "category": ["Teoria", "SQL"],
+      "category": ["Gratis","Teoria", "SQL"],
       "name": "Cheatsheet SQL",
       "link": "./documents/cheatsheetSQL.pdf",
       "description": "PDF con un resumen del lenguaje SQL.",
@@ -557,7 +629,7 @@
     },
 
     {
-      "category": ["Diagramas"],
+      "category": ["Gratis","Diagramas"],
       "name": "Miro",
       "link": "https://miro.com/es/",
       "description": "Crear diagramas de  manera facil y sencilla.",
@@ -565,7 +637,7 @@
       "github": ""
     },
     {
-      "category": ["Diagramas"],
+      "category": ["Gratis","Diagramas"],
       "name": "Fig Jam",
       "link": "https://www.figma.com/figjam/",
       "description": "Crear diagramas de  manera facil y sencilla.",
@@ -573,7 +645,7 @@
       "github": ""
     },
     {
-      "category": ["Diagramas"],
+      "category": ["Gratis","Diagramas"],
       "name": "Lucid",
       "link": "https://www.lucidchart.com/pages/",
       "description": "Crear diagramas de  manera facil y sencilla.",
@@ -582,7 +654,7 @@
     },
 
     {
-      "category": ["Nextjs"],
+      "category": ["Gratis","Nextjs"],
       "name": "Nextjs",
       "link": "https://nextjs.org/",
       "description": "Web oficial de Next.js.",
@@ -590,7 +662,7 @@
       "github": ""
     },
     {
-      "category": ["Reactjs"],
+      "category": ["Gratis","Reactjs"],
       "name": "Reactjs",
       "link": "https://react.dev/",
       "description": "Web oficial de React.js.",
@@ -598,7 +670,7 @@
       "github": ""
     },
     {
-      "category": ["Javascript"],
+      "category": ["Gratis","Javascript"],
       "name": "Javascript",
       "link": "https://developer.mozilla.org/es/docs/Web/JavaScript",
       "description": "Web con documentación oficial de Javascript",
@@ -606,7 +678,7 @@
       "github": ""
     },
     {
-      "category": ["Astro"],
+      "category": ["Gratis","Astro"],
       "name": "Astro",
       "link": "https://docs.astro.build/en/getting-started/",
       "description": "Web oficial de Astro",
@@ -615,7 +687,7 @@
     },
 
     {
-      "category": ["API"],
+      "category": ["Gratis","API"],
       "name": "Reqres",
       "link": "https://reqres.in/",
       "description": "Api para crear datos falsos.",
@@ -623,7 +695,7 @@
       "github": ""
     },
     {
-      "category": ["API"],
+      "category": ["Gratis","API"],
       "name": "Public APIS",
       "link": "https://publicapis.dev/",
       "description": "Api para crear datos falsos.",
@@ -631,7 +703,7 @@
       "github": ""
     },
     {
-      "category": ["API"],
+      "category": ["Gratis","API"],
       "name": "Rapid API",
       "link": "https://rapidapi.com/",
       "description": "Api para crear datos falsos.",
@@ -640,7 +712,7 @@
     },
 
     {
-      "category": ["Generadores", "IA", "Imagenes"],
+      "category": ["Gratis","Generadores", "IA", "Imagenes"],
       "name": "Recraft ia",
       "link": "https://app.recraft.ai/projects",
       "description": "Generador de imagenes a través de texto.",
@@ -648,7 +720,7 @@
       "github": ""
     },
     {
-      "category": ["Generadores"],
+      "category": ["Gratis","Generadores"],
       "name": "Blob maker",
       "link": "https://www.blobmaker.app/",
       "description": "Generador de formas abstractas en svg.",
@@ -656,7 +728,7 @@
       "github": ""
     },
     {
-      "category": ["Generadores"],
+      "category": ["Gratis","Generadores"],
       "name": "Cubic Bezier",
       "link": "https://cubic-bezier.com/",
       "description": "Generador de lineas curvas en css.",
@@ -664,7 +736,7 @@
       "github": ""
     },
     {
-      "category": ["Generadores"],
+      "category": ["Gratis","Generadores"],
       "name": "Namelix",
       "link": "https://namelix.com/",
       "description": "Generador de nombres.",
@@ -672,7 +744,7 @@
       "github": ""
     },
     {
-      "category": ["Generadores"],
+      "category": ["Gratis","Generadores"],
       "name": "CSS warp",
       "link": "https://csswarp.eleqtriq.com/",
       "description": "Generador de texto curvado en css.",
@@ -680,7 +752,7 @@
       "github": ""
     },
     {
-      "category": ["Generadores", "IA", "Imagenes"],
+      "category": ["Gratis","Generadores", "IA", "Imagenes"],
       "name": "Express Adobe",
       "link": "https://new.express.adobe.com/id/urn:aaid:sc:EU:3265b9db-158a-47ba-9f0f-a9fd38e6cfa6?category=media&tab=photos",
       "description": "Generador de imagenes a través de texto.",
@@ -688,7 +760,7 @@
       "github": ""
     },
     {
-      "category": ["Generadores", "Buscador", "IA", "Imagenes"],
+      "category": ["Gratis","Generadores", "Buscador", "IA", "Imagenes"],
       "name": "Lexica",
       "link": "https://lexica.art/",
       "description": "Buscador y generador de imagenes a través de texto.",
@@ -696,7 +768,7 @@
       "github": ""
     },
     {
-      "category": ["Generadores", "IA", "Imagenes"],
+      "category": ["Gratis","Generadores", "IA", "Imagenes"],
       "name": "Bluewillow",
       "link": "https://www.bluewillow.ai/",
       "description": "Generador de imagenes a través de texto.",
@@ -704,7 +776,7 @@
       "github": ""
     },
     {
-      "category": ["Generadores", "IA", "Imagenes"],
+      "category": ["Gratis","Generadores", "IA", "Imagenes"],
       "name": "Midjourney",
       "link": "https://www.midjourney.com/home?callbackUrl=%2Fexplore",
       "description": "Generador de imagenes a través de texto.",
@@ -712,7 +784,7 @@
       "github": ""
     },
     {
-      "category": ["Generadores"],
+      "category": ["Gratis","Generadores"],
       "name": "Lorem lipsum",
       "link": "https://es.lipsum.com/",
       "description": "Generador de texto.",
@@ -720,7 +792,7 @@
       "github": ""
     },
     {
-      "category": ["Generadores"],
+      "category": ["Gratis","Generadores"],
       "name": "Read me",
       "link": "https://readme.so/es",
       "description": "Generador de archivos readme.",
@@ -728,7 +800,7 @@
       "github": ""
     },
     {
-      "category": ["Generadores"],
+      "category": ["Gratis","Generadores"],
       "name": "Css clipie chart",
       "link": "https://bennettfeely.com/csspiechart/",
       "description": "Generador de graficos en css.",
@@ -736,7 +808,7 @@
       "github": ""
     },
     {
-      "category": ["Generadores", "IA"],
+      "category": ["Gratis","Generadores", "IA"],
       "name": "Json data IA",
       "link": "https://www.jsondataai.com/",
       "description": "Generador de json con IA.",
@@ -744,7 +816,7 @@
       "github": ""
     },
     {
-      "category": ["Imagenes"],
+      "category": ["Gratis","Imagenes"],
       "name": "Shots",
       "link": "https://shots.so/",
       "description": "Mockups, poner una imagen y ver como quedaria en una web, en un portatil, mobil...",
@@ -753,7 +825,7 @@
     },
 
     {
-      "category": ["Fuentes"],
+      "category": ["Gratis","Fuentes"],
       "name": "Google Fonts",
       "link": "https://fonts.google.com/",
       "description": "Colección de fuentes de google",
@@ -761,7 +833,7 @@
       "github": ""
     },
     {
-      "category": ["Fuentes"],
+      "category": ["Gratis","Fuentes"],
       "name": "Tipografia para logos",
       "link": "https://blog.hubspot.es/marketing/tipografias-para-logos",
       "description": "Web con mucas fuentes guapas",
@@ -769,7 +841,7 @@
       "github": ""
     },
     {
-      "category": ["Fuentes"],
+      "category": ["Gratis","Fuentes"],
       "name": "1001 Free fonts",
       "link": "https://www.1001freefonts.com/es/gaming-fonts.php",
       "description": "Colección de fuentes muy guapas",
@@ -777,7 +849,7 @@
       "github": ""
     },
     {
-      "category": ["Fuentes", "Scripts"],
+      "category": ["Gratis","Fuentes", "Scripts"],
       "name": "Fuente Poppins script",
       "link": "https://github.com/Franklin369/apuntes-html-css/blob/main/fonts%20googleapis",
       "description": "Colección de fuentes de google",
@@ -785,7 +857,7 @@
       "github": ""
     },
     {
-      "category": ["Fuentes", "Buscador"],
+      "category": ["Gratis","Fuentes", "Buscador"],
       "name": "Font source",
       "link": "https://fontsource.org/",
       "description": "Buscador de fuentes",
@@ -794,7 +866,7 @@
     },
 
     {
-      "category": ["Scripts"],
+      "category": ["Gratis","Scripts"],
       "name": "Subir proyecto a github",
       "link": "./documents/SUBIR PROYECTO A GITHUB.txt",
       "description": "Script de los pasos para subir un proyecto personal a mi Github",
@@ -802,7 +874,7 @@
       "github": ""
     },
     {
-      "category": ["Scripts", "Astro"],
+      "category": ["Gratis","Scripts", "Astro"],
       "name": "Crear proyecto Astro",
       "link": "./documents/CREAR PROYECTO ASTRO.txt",
       "description": "Script de los pasos para crear un proyecto de Astro",
@@ -810,7 +882,7 @@
       "github": ""
     },
     {
-      "category": ["Scripts", "Reactjs"],
+      "category": ["Gratis","Scripts", "Reactjs"],
       "name": "Crear proyecto React",
       "link": "./documents/CREAR PROYECTO REACT.txt",
       "description": "Script de los pasos para crear un proyecto de React",
@@ -818,7 +890,7 @@
       "github": ""
     },
     {
-      "category": ["Scripts"],
+      "category": ["Gratis","Scripts"],
       "name": "Colaborar proyecto Github",
       "link": "./documents/COLABORAR PROYECTO GITHUB.txt",
       "description": "Script de los pasos para crear un proyecto de Next",
@@ -826,7 +898,7 @@
       "github": ""
     },
     {
-      "category": ["Scripts"],
+      "category": ["Gratis","Scripts"],
       "name": "Configuracion  VS Code",
       "link": "./documents/CONFIGURACION VS CODE.txt",
       "description": "script con la configuración de visual code",
@@ -834,7 +906,7 @@
       "github": ""
     },
     {
-      "category": ["Scripts"],
+      "category": ["Gratis","Scripts"],
       "name": "Configuracion  Chrome",
       "link": "./documents/CONFIGURACION CHROME.txt",
       "description": "script con la configuración de google chrome",
@@ -843,7 +915,7 @@
     },
 
     {
-      "category": ["Teoria"],
+      "category": ["Gratis","Teoria"],
       "name": "Goalkicker",
       "link": "https://books.goalkicker.com/",
       "description": "Web con libros de programacion de todos los lenguajes",
@@ -851,7 +923,7 @@
       "github": ""
     },
     {
-      "category": ["Teoria", "Javascript"],
+      "category": ["Gratis","Teoria", "Javascript"],
       "name": "Apuntes de Majo",
       "link": "https://losapuntesdemajo.vercel.app/",
       "description": "Web con apuntes de programacion de todos los lenguajes",
@@ -859,7 +931,7 @@
       "github": ""
     },
     {
-      "category": ["Teoria", "Javascript"],
+      "category": ["Gratis","Teoria", "Javascript"],
       "name": "Lenguaje js",
       "link": "https://lenguajejs.com/",
       "description": "Web con apuntes de programacion de Javascript",
@@ -867,7 +939,7 @@
       "github": ""
     },
     {
-      "category": ["Teoria"],
+      "category": ["Gratis","Teoria"],
       "name": "Atajos Visual Code",
       "link": "./documents/atajosvisualcode.pdf",
       "description": "Web con apuntes de programacion de Javascript",
@@ -875,7 +947,7 @@
       "github": ""
     },
     {
-      "category": ["Teoria", "Javascript"],
+      "category": ["Gratis","Teoria", "Javascript"],
       "name": "Teoria Javascript",
       "link": "./documents/curso udemy teoria javascript.pdf",
       "description": "Pdf con la teoria de javascript, del curso de udemy de Jonas Schemmed.",
@@ -883,7 +955,7 @@
       "github": ""
     },
     {
-      "category": ["Teoria"],
+      "category": ["Gratis","Teoria"],
       "name": "CSS Flexbox",
       "link": "./documents/css-flexbox-poster.png",
       "description": "Pdf con cheatsheet de flexbox.",
@@ -891,7 +963,7 @@
       "github": ""
     },
     {
-      "category": ["Teoria"],
+      "category": ["Gratis","Teoria"],
       "name": "CSS Grid",
       "link": "https://css-tricks.com/snippets/css/complete-guide-grid/",
       "description": "Pdf con cheatsheet de grid.",
@@ -899,7 +971,7 @@
       "github": ""
     },
     {
-      "category": ["Teoria"],
+      "category": ["Gratis","Teoria"],
       "name": "Web Cheatsheets",
       "link": "https://htmlcheatsheet.com/",
       "description": "Web con muchos cheatsheets de diferentes lenguajes.",
@@ -907,7 +979,7 @@
       "github": ""
     },
     {
-      "category": ["Teoria"],
+      "category": ["Gratis","Teoria"],
       "name": "Cheatsheet Tailwind",
       "link": "https://tailwindcomponents.com/cheatsheet/",
       "description": "Web con cheatsheet de Tailwind.",
@@ -915,7 +987,7 @@
       "github": ""
     },
     {
-      "category": ["Teoria", "SQL"],
+      "category": ["Gratis","Teoria", "SQL"],
       "name": "Cheatsheet SQL web",
       "link": "https://www.sqltutorial.org/sql-cheat-sheet/",
       "description": "Pdf con cheatsheet de SQL.",
@@ -924,7 +996,7 @@
     },
 
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
       "name": "3d Icons",
       "link": "https://3dicons.co/",
       "description": "Web con un pack de iconos en 3D descargables.",
@@ -932,7 +1004,7 @@
       "github": ""
     },
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
       "name": "SVGL",
       "link": "https://svgl.vercel.app/",
       "description": "Web con un pack de iconos de logos en svg.",
@@ -940,7 +1012,7 @@
       "github": ""
     },
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
       "name": "Tabler icons",
       "link": "https://tabler.io/icons",
       "description": "Web con una gran variedad de iconos en svg.",
@@ -948,7 +1020,7 @@
       "github": ""
     },
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
       "name": "Hero icons",
       "link": "https://heroicons.com/",
       "description": "Web con una gran variedad de iconos.",
@@ -956,7 +1028,7 @@
       "github": ""
     },
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
       "name": "System uicons",
       "link": "https://www.systemuicons.com/",
       "description": "Web con una gran variedad de iconos.",
@@ -964,7 +1036,7 @@
       "github": ""
     },
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
       "name": "Icons 8",
       "link": "https://iconos8.es/",
       "description": "Web con una gran variedad de iconos.",
@@ -972,7 +1044,7 @@
       "github": ""
     },
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
       "name": "Line icons",
       "link": "https://lineicons.com/",
       "description": "Web con una gran variedad de iconos.",
@@ -980,7 +1052,7 @@
       "github": ""
     },
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
       "name": "Flat icon",
       "link": "https://www.flaticon.es/",
       "description": "Web con una gran variedad de iconos.",
@@ -988,15 +1060,39 @@
       "github": ""
     },
     {
-      "category": ["Iconos"],
-      "name": "Font Awesome",
-      "link": "https://fontawesome.com/start",
-      "description": "Web con una gran variedad de iconos.",
+      "category": ["Gratis","Iconos"],
+      "name": "Boxicons",
+      "link": "https://boxicons.com/",
+      "description": "Boxicons is a free collection of carefully crafted open source icons.",
       "youtube": [],
       "github": ""
     },
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
+      "name": "Iconfinder",
+      "link": "https://www.iconfinder.com/",
+      "description": "Iconfinder is the world's largest marketplace for icons, illustrations and 3D illustrations in SVG, AI, and PNG format.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Iconos"],
+      "name": "Yesicons",
+      "link": "https://yesicon.app/?lang=es",
+      "description": "167 conjuntos de iconos con más de 210k iconos, busca en conjuntos de iconos en varios idiomas, filtrado por tipo y estilo, personalización rápida de colores, tamaños y estilos de código de los iconos, copia y descarga en un clic para desarrolladores y diseñadores",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Iconos"],
+      "name": "Font Awesome",
+      "link": "https://fontawesome.com/start",
+      "description": "The internet's icon library + toolkit. Used by millions of designers, devs, & content creators.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Iconos"],
       "name": "Font Awesome (como agregar los iconos)",
       "link": "https://www.freecodecamp.org/espanol/news/como-anadir-los-iconos-de-font-awesome-a-tus-botones/",
       "description": "Web con tutorial de como añadr los iconos de Font Awesome.",
@@ -1004,7 +1100,7 @@
       "github": ""
     },
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
       "name": "Lord icon",
       "link": "https://lordicon.com/",
       "description": "Web con una gran variedad de iconos.",
@@ -1012,7 +1108,7 @@
       "github": ""
     },
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
       "name": "Iconscout",
       "link": "https://iconscout.com/unicons/explore/line",
       "description": "Web con una gran variedad de iconos.",
@@ -1020,7 +1116,7 @@
       "github": ""
     },
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
       "name": "GetEmoji",
       "link": "https://getemoji.com/",
       "description": "Web con una gran variedad de emojis.",
@@ -1028,7 +1124,7 @@
       "github": ""
     },
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
       "name": "Emojis wiki",
       "link": "https://emojis.wiki/es/",
       "description": "Web con una gran variedad de emojis.",
@@ -1036,7 +1132,7 @@
       "github": ""
     },
     {
-      "category": ["Iconos"],
+      "category": ["Gratis","Iconos"],
       "name": "Icons 8 ilustraciones",
       "link": "https://iconos8.es/illustrations",
       "description": "Web con una gran variedad de ilustraciones, 3d...",
