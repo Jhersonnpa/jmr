@@ -406,6 +406,54 @@
       "github": ""
     },
     {
+      "category": ["Gratis","CSS"],
+      "name": "UI Colors",
+      "link": "https://uicolors.app/create",
+      "description": "Generate, edit, save and share Tailwind CSS color shades based on a given hexcode or HSL color.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Toastify js",
+      "link": "https://apvarun.github.io/toastify-js/",
+      "description": "Toastify is a pure JavaScript library that lets you create notifications toasts/messages.",
+      "youtube": [],
+      "github": "https://github.com/apvarun/toastify-js"
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Tailwind CSS Animated",
+      "link": "https://www.tailwindcss-animated.com/",
+      "description": "Extended animation utilities for Tailwind CSS",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Floating UI",
+      "link": "https://floating-ui.com/",
+      "description": "A JavaScript library to position floating elements and create interactions for them.",
+      "youtube": [],
+      "github": "https://github.com/floating-ui/floating-ui"
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Swiper",
+      "link": "https://swiperjs.com/",
+      "description": "Swiper is the most modern free mobile touch slider with hardware accelerated transitions and amazing native behavior.",
+      "youtube": [],
+      "github": "https://github.com/nolimits4web/swiper"
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Atropos js",
+      "link": "https://atroposjs.com/",
+      "description": "Atropos is a lightweight, free and open-source JavaScript library to create stunning touch-friendly 3D parallax hover effects.",
+      "youtube": [],
+      "github": "https://github.com/nolimits4web/atropos/"
+    },
+    {
       "category": ["Gratis","Design system", "Reactjs", "Nextjs"],
       "name": "Keep",
       "link": "https://react.keepdesign.io/",
@@ -417,7 +465,7 @@
       "category": ["Gratis","Librerias", "CSS", "Design system"],
       "name": "Tailwind CSS",
       "link": "https://tailwindcss.com/",
-      "description": "Libreria css",
+      "description": "Tailwind CSS is a utility-first CSS framework for rapidly building modern websites without ever leaving your HTML.",
       "youtube": [],
       "github": ""
     },
@@ -658,10 +706,10 @@
     {
       "category": ["Gratis","Reactjs"],
       "name": "Reactjs",
-      "link": "https://react.dev/",
-      "description": "Web oficial de React.js.",
+      "link": "https://es.react.dev/",
+      "description": "React is the library for web and native user interfaces. Build user interfaces out of individual pieces called components written in JavaScript. React is designed to let you seamlessly combine components written by independent people, teams, and organizations.",
       "youtube": [],
-      "github": ""
+      "github": "https://github.com/facebook/react"
     },
     {
       "category": ["Gratis","Javascript"],
