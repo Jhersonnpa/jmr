@@ -422,10 +422,34 @@
       "github": ""
     },
     {
-      "category": ["Gratis","CSS"],
+      "category": ["Gratis","CSS", "Colores"],
       "name": "UI Colors",
       "link": "https://uicolors.app/create",
       "description": "Generate, edit, save and share Tailwind CSS color shades based on a given hexcode or HSL color.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis", "CSS", "Colores", "Generadores"],
+      "name": "Coolors",
+      "link": "https://coolors.co/",
+      "description": "Web generadora de paletas de colores.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis", "CSS", "Colores"],
+      "name": "Colors HSL W3schools",
+      "link": "https://www.w3schools.com/colors/colors_hsl.asp",
+      "description": "Web 3 schools HSL calculator.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis", "CSS", "Colores"],
+      "name": "Color-Hex",
+      "link": "https://www.color-hex.com/color/e8dcac",
+      "description": "Web Hex calculator.",
       "youtube": [],
       "github": ""
     },
@@ -469,6 +493,231 @@
       "youtube": [],
       "github": "https://github.com/nolimits4web/atropos/"
     },
+    {
+      "category": ["Gratis","CSS","Librerias"],
+      "name": "Bootstrap",
+      "link": "https://getbootstrap.com/",
+      "description": "Libreria css",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","CSS","Librerias"],
+      "name": "AnimatiSS",
+      "link": "https://xsgames.co/animatiss/",
+      "description": "Libreria de animaciones css",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","CSS","Librerias"],
+      "name": "Animate",
+      "link": "https://animate.style/",
+      "description": "Libreria de animaciones css",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","CSS","Librerias"],
+      "name": "Efecto Hover",
+      "link": "https://freefrontend.com/css-hover-effects/",
+      "description": "Libreria efecto hover",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","CSS","Librerias"],
+      "name": "Loaders css",
+      "link": "https://css-loaders.com/",
+      "description": "Libreria css de loaders",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","CSS","Librerias"],
+      "name": "Hover effects",
+      "link": "https://ianlunn.github.io/Hover/",
+      "description": "Libreria css de hovers",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","CSS","Librerias"],
+      "name": "Web con efectos hover",
+      "link": "https://programacion.net/articulo/12_librerias_de_css_para_efectos_hover_1511",
+      "description": "Web con links a librerias hover",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","CSS","Librerias"],
+      "name": "Ui ball",
+      "link": "https://uiball.com/",
+      "description": "Libreria css de loaders personalizables",
+      "youtube": [],
+      "github": "https://github.com/GriffinJohnston/ldrs"
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Particles Script",
+      "link": "/documents/CONFIGURACION PARTICLES.txt",
+      "description": "Libreria js de particulas. Hay distintos tipos de particulas.",
+      "youtube": [],
+      "github": "https://github.com/VincentGarreau/particles.js/"
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Particles",
+      "link": "https://vincentgarreau.com/particles.js/",
+      "description": "Web para editar el arxivo de la libreria js de particulas.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias", "Imagenes"],
+      "name": "LottieFiles",
+      "link": "https://lottiefiles.com/es/",
+      "description": "Libreria de imagenes ligeras con movimiento ",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Three",
+      "link": "https://threejs.org/",
+      "description": "Libreria con animaciones 3d",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Anime",
+      "link": "https://animejs.com/",
+      "description": "Libreria de animaciones js",
+      "youtube": [],
+      "github": "https://github.com/juliangarnier/anime"
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "GSAP",
+      "link": "https://gsap.com/",
+      "description": "Libreria js de animaciones",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias", "Reactjs"],
+      "name": "React drag and drop",
+      "link": "https://www.npmjs.com/package/react-beautiful-dnd",
+      "description": "Libreria de react con drag and drop. En el GitHub te explica como funciona y su documentación esta en la web.",
+      "youtube": [],
+      "github": "https://github.com/atlassian/react-beautiful-dnd/blob/HEAD/docs/about/installation.md"
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Web con codigo sliders",
+      "link": "https://www.creativosonline.org/19-sliders-carruseles-gratuitos-css-sitio-web.html",
+      "description": "Web con link al code pen de los sliders",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Aos",
+      "link": "https://michalsnik.github.io/aos/",
+      "description": "Libreria de animaciones",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Sweet alert",
+      "link": "https://sweetalert2.github.io/",
+      "description": "Libreria de alerts con js",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Swiper",
+      "link": "https://swiperjs.com/",
+      "description": "Libreria js de sliders",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Splide",
+      "link": "https://splidejs.com/",
+      "description": "Libreria js de sliders.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Hamburgesas",
+      "link": "https://jonsuh.com/hamburgers/",
+      "description": "Libreria javascript del menu hamburgesas.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Plain Admin",
+      "link": "https://docs.plainadmin.com/",
+      "description": "Libreria de componentes",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Chartjs",
+      "link": "https://www.chartjs.org/",
+      "description": "Libreria de graficos",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Full Calendar",
+      "link": "https://fullcalendar.io/docs/month-view",
+      "description": "Libreria Calendario",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Arctext",
+      "link": "https://tympanus.net/Development/Arctext/",
+      "description": "Libreria arquear texto.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Ztext",
+      "link": "https://bennettfeely.com/ztext/",
+      "description": "Libreria texto 3d.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "JQuery",
+      "link": "https://jqueryui.com/",
+      "description": "Libreria JQuery",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Javascript","Librerias"],
+      "name": "Axios",
+      "link": "https://axios-http.com/es/docs/intro",
+      "description": "Libreria asincorna, ajax.",
+      "youtube": [],
+      "github": ""
+    },
+
     {
       "category": ["Gratis","Design system", "Reactjs", "Nextjs"],
       "name": "Keep",
@@ -700,7 +949,6 @@
       "youtube": [],
       "github": ""
     },
-
     {
       "category": ["Gratis","Nextjs"],
       "name": "Nextjs",
@@ -1004,6 +1252,30 @@
     },
     {
       "category": ["Gratis","Teoria"],
+      "name": "She codes Web cheatsheet",
+      "link": "https://cheatsheets.shecodes.io/javascript",
+      "description": "Web con cheatsheets de muchos lenguajes.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Teoria"],
+      "name": "OverApi",
+      "link": "https://overapi.com/",
+      "description": "Web con cheatsheets de muchos lenguajes.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Teoria"],
+      "name": "CheatSheets lenguajes",
+      "link": "https://www.linkedin.com/pulse/best-cheatsheets-learn-full-stack-development-sergei-s--1f/",
+      "description": "Web con links a las mejores cheatsheets.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Teoria"],
       "name": "CSS Flexbox",
       "link": "./documents/css-flexbox-poster.png",
       "description": "Pdf con cheatsheet de flexbox.",
@@ -1184,6 +1456,126 @@
       "name": "Icons 8 ilustraciones",
       "link": "https://iconos8.es/illustrations",
       "description": "Web con una gran variedad de ilustraciones, 3d...",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Enviadores de correo"],
+      "name": "Emailjs",
+      "link": "https://www.emailjs.com/",
+      "description": "Send email directly from your code – no server side code required. Add static or dynamic attachments, dynamic parameters, captcha code and more.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Enviadores de correo"],
+      "name": "Resend",
+      "link": "https://resend.com/",
+      "description": "A simple, elegant interface so you can start sending emails in minutes. It fits right into your code with SDKs for your favorite programming languages.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Enviadores de correo"],
+      "name": "Formspree",
+      "link": "https://formspree.io/",
+      "description": "Formspree is a form backend, API, and email service for HTML & JavaScript forms. It's the simplest way to embed custom contact us forms, order forms.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Mapas"],
+      "name": "Mapbox",
+      "link": "https://www.mapbox.com/",
+      "description": "Mapbox es un proveedor de mapas en línea realizados por encargo para páginas webs.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Mapas"],
+      "name": "OpenStreetMap",
+      "link": "https://www.openstreetmap.org/#map=9/41.3469/2.1149",
+      "description": "OpenStreetMap es un proyecto colaborativo para crear mapas editables y libres.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Mapas"],
+      "name": "OpenLayers",
+      "link": "https://openlayers.org/",
+      "description": "OpenLayers es una biblioteca de JavaScript de código abierto bajo una derivación de la licencia BSD para mostrar mapas interactivos en los navegadores web.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Mapas"],
+      "name": "Leafletjs",
+      "link": "https://leafletjs.com/download.html",
+      "description": "Leaflet es una biblioteca JavaScript de código abierto que se utiliza para crear aplicaciones de mapas web.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Mapas"],
+      "name": "Mapbox web documentacion",
+      "link": "https://danisanchez.net/integra-openstreetmap-en-tus-aplicaciones-web-con-leaflet-y-mapbox/",
+      "description": "Web con los pasos para como instalar y usar el Mapbox.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Webs de inspiracion"],
+      "name": "Linears",
+      "link": "https://www.linears.art/",
+      "description": "Web con una gran coleccion de webs para inspirarte.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Webs de inspiracion"],
+      "name": "Awwwards",
+      "link": "https://www.awwwards.com/",
+      "description": "Web con una gran coleccion de webs para inspirarte.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Webs de inspiracion"],
+      "name": "Dribbble",
+      "link": "https://dribbble.com/",
+      "description": "Web con una gran coleccion de webs para inspirarte.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Webs de inspiracion"],
+      "name": "Saveeit",
+      "link": "https://savee.it/",
+      "description": "Web con una gran coleccion de webs para inspirarte.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Webs de inspiracion"],
+      "name": "Web personal Bruno Simons",
+      "link": "https://threejs-journey.com/?c=p3#bruno-simon",
+      "description": "Web personal de Bruno Simons, webs 3d, three.js, animaciones...",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","CMS"],
+      "name": "Sanityio",
+      "link": "https://www.sanity.io/?adgroupid=138559557526&adid=676625428689&gclid=Cj0KCQiAqsitBhDlARIsAGMR1RjXGTWAw3jTgfILEr4Lvrs9WWTsJdpCQh_pSA0RogLZksjMfX0gD34aAt4yEALw_wcB",
+      "description": "Sanity is the modern CMS that transforms content into a competitive advantage. Customize, collaborate, and scale your digital experiences seamlessly.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","CMS"],
+      "name": "Strapi",
+      "link": "https://strapi.io/",
+      "description": "Strapi is the next-gen headless CMS, open-source, javascript, enabling content-rich experiences to be created, managed and exposed to any digital device.",
       "youtube": [],
       "github": ""
     }
