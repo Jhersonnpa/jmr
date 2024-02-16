@@ -1578,6 +1578,150 @@
       "description": "Strapi is the next-gen headless CMS, open-source, javascript, enabling content-rich experiences to be created, managed and exposed to any digital device.",
       "youtube": [],
       "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Surge (Front-End)",
+      "link": "https://surge.sh/",
+      "description": "Static web publishing for Front-End Developers ... Simple, single-command web publishing. Publish HTML , CSS , and JS for free, without leaving the command line.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Vercel (Front-End)",
+      "link": "https://vercel.com/",
+      "description": "Es una empresa estadounidense de plataforma en la nube como servicio. La empresa mantiene el marco de desarrollo web Next.js.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Netlify (Front-End)",
+      "link": "https://app.netlify.com/",
+      "description": "Netlify es una empresa de computación en la nube remota que ofrece una plataforma de desarrollo que incluye servicios backend de creación, implementación y sin servidor para aplicaciones web y sitios web dinámicos.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Github Pages (Front-End)",
+      "link": "https://github.com/",
+      "description": "You get one site per GitHub account and organization, and unlimited project sites. Let's get started.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "FL0 (FullStack)",
+      "link": "https://www.fl0.com/",
+      "description": "Deploy backend applications and databases in minutes. · Your powerful, fully managed deployment platform. · Use AI to debug your deployments.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Fly (FullStack)",
+      "link": "https://fly.io/",
+      "description": "Sandboxing at Scale · Launch Instantly: Fly Machines boot in around 300ms, fast enough to start in response to HTTP requests.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Railway (FullStack)",
+      "link": "https://railway.app/",
+      "description": "Railway is an infrastructure platform where you can provision infrastructure, develop with that infrastructure locally, and then deploy to the cloud.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Lambda Amazon (FullStack)",
+      "link": "https://aws.amazon.com/es/pm/lambda/?gclid=Cj0KCQiAqsitBhDlARIsAGMR1RiiU5nkGJ37gwRDUR-TjXMZRX6cPPyeY9t5_YQORGhD0bx7Y4_xzhUaAmSrEALw_wcB&trk=bd068269-b7dc-4d56-81c4-3c5f58721bef&sc_channel=ps&ef_id=Cj0KCQiAqsitBhDlARIsAGMR1RiiU5nkGJ37gwRDUR-TjXMZRX6cPPyeY9t5_YQORGhD0bx7Y4_xzhUaAmSrEALw_wcB:G:s&s_kwcid=AL!4422!3!651612449177!e!!g!!aws%20lambda!19836375964!149982286511",
+      "description": "AWS Lambda es una plataforma informática sin servidor basada en eventos proporcionada por Amazon como parte de Amazon Web Services.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Dynamodb (Base de datos)",
+      "link": "https://aws.amazon.com/es/pm/dynamodb/?gclid=Cj0KCQiAqsitBhDlARIsAGMR1Rh7MRTk4lQZv5Jdu4QopoCB8WoR88Lpk9WomfFLidVwzab42qtKB-0aAtv8EALw_wcB&trk=b3d144cd-963d-4a7c-9ebc-1a72f3b55ee5&sc_channel=ps&ef_id=Cj0KCQiAqsitBhDlARIsAGMR1Rh7MRTk4lQZv5Jdu4QopoCB8WoR88Lpk9WomfFLidVwzab42qtKB-0aAtv8EALw_wcB:G:s&s_kwcid=AL!4422!3!588732065475!e!!g!!dynamodb!16395977425!136814977147",
+      "description": "Amazon DynamoDB es un servicio de base de datos noSQL ofrecido por Amazon como parte de Amazon Web Services.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Cockroach (Base de datos)",
+      "link": "https://www.cockroachlabs.com/",
+      "description": "CockroachDB is a distributed database with standard SQL for cloud applications. CockroachDB powers companies like Comcast, Lush, and Bose.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Neon tech (Base de datos)",
+      "link": "https://neon.tech/",
+      "description": "Neon allows you to instantly branch your Postgres database to support modern development workflows. (Prostgeresql)",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Planet scale (Base de datos)",
+      "link": "https://planetscale.com/",
+      "description": "PlanetScale is a MySQL-compatible database that brings you scale, performance, and reliability. (mysql)",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Upstach (Base de datos)",
+      "link": "https://upstash.com/",
+      "description": "Designed for the serverless with per-request pricing and Redis®/Kafka® API. (Redis)",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Atlas (Base de datos)",
+      "link": "https://www.mongodb.com/docs/atlas/getting-started/",
+      "description": "The Easiest Way to Deploy, Operate, and Scale MongoDB in the Cloud in Just a Few Clicks. (MongoDb)",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Turso (Base de datos)",
+      "link": "https://turso.tech/",
+      "description": "Enjoy a legendary amount of databases, all with the developer experience of SQLite, while getting up to microsecond latency and embedding them anywhere. (SQLlite)",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "Koye (Api)",
+      "link": "https://www.koyeb.com/",
+      "description": "Koyeb is a developer-friendly serverless platform to deploy apps globally. No-ops, servers, and infrastructure management.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Hostings"],
+      "name": "InfinityFree (Base de datos)",
+      "link": "https://www.infinityfree.com/",
+      "description": "Host WordPress for free! With full support for PHP and MySQL, InfinityFree is a great place to host WordPress.",
+      "youtube": [],
+      "github": ""
+    },
+    {
+      "category": ["Gratis","Design system"],
+      "name": "Aceternity",
+      "link": "https://ui.aceternity.com/",
+      "description": "Beautiful Tailwind CSS and Framer Motion Components, built with Next.js and TypeScript.",
+      "youtube": [],
+      "github": ""
     }
   ]
 }
