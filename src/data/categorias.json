@@ -92,6 +92,24 @@
         }, 
         {
             "name": "Librerias"
-        } 
+        },
+        {
+            "name": "Colores"
+        },
+        {
+            "name": "Enviadores de correo"
+        },
+        {
+            "name": "Mapas"
+        },
+        {
+            "name": "Webs de inspiracion"
+        },
+        {
+            "name": "CMS"
+        },
+        {
+            "name": "Hostings"
+        }
     ]
 }
