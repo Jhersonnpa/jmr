@@ -10,14 +10,14 @@ const itemsSort = items.sort((a:any, b:any)=>{
 ---
 
 <div id="main" class="flex justify-between flex-wrap ml-0 sm:ml-56 p-6 h-full min-h-[92vh]">
-  <div class=" w-full h-full grid gap-4 grid-cols-1 sm:grid-cols-2 auto-cols-fr lg:grid-cols-4">
+  <div class="w-full h-full grid gap-4 grid-cols-1 md:grid-cols-2 auto-cols-fr lg:grid-cols-3 xl:grid-cols-4">
     {
       itemsSort.map((item:any) => (
         <CardItem
         category={item.category}
         name={item.name}
         link={item.link}
-        image={"../../images/captura-"+item.name.toLowerCase().replace(/ /g,"")+".webp"}
+        image={"/images/captura-"+item.name.toLowerCase().replace(/ /g,"")+".webp"}
         description={item.description}
         youtube={item.youtube}
         github={item.github}

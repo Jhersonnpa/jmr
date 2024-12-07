@@ -1,11 +1,12 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
+import { ClientRouter } from 'astro:transitions';
 import Header from "../components/Header.astro";
 import Aside from "../components/Aside.astro";
 interface Props {
   title: string;
 }
 
+import '@/styles/globals.css'
 const { title } = Astro.props;
 ---
 
@@ -42,11 +43,11 @@ const { title } = Astro.props;
       }
     </style>
     <script src="../scripts/scriptsHead.js"></script>
-    <ViewTransitions />
+    <ClientRouter />
   </head>
   <body
     id="body"
-    class="w-full h-full dark:bg-[radial-gradient(circle_500px_at_50%_200px,#3e3e3e,transparent)] bg-[radial-gradient(circle_500px_at_50%_500px,#D5C5FF,transparent)] bg-white dark:bg-[#13151a]"
+    class="w-full h-full bg-[radial-gradient(circle_500px_at_50%_200px,#3e3e3e,transparent)] dark:bg-[#13151a]"
   >
     <div>
       <Header />
